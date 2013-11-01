@@ -10,7 +10,7 @@ rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
 #EXTINF:0, Canal Uno
 
 #EXTINF:0, Señal Colombia
-rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
-#EXTINF:0, Canal 13
+rtmp://cdns724ste1010.multistream.net/rtvc2live/live-500
+#EXTINF:0, Canal 13    
 rtmp://cdns724ste1010.multistream.net/canaltr3celive/live-300
 #EXTINF:0, CityTV
