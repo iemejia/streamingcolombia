@@ -2,7 +2,7 @@ Dev Info
 ========
 
 # Canal Capital #
-http://www.canalcapital.gov.co/
+
 http://new.livestream.com/accounts/4239881/events/2169976
 
 livestream.com
@@ -48,25 +48,17 @@ rtmpdump --rtmp rtmp://cp101307.live.edgefcs.net/live/ \
          --tcUrl rtmp://23.15.5.185/live?_fcs_vhost=cp101307.live.edgefcs.net \
          --live | mplayer -cache 512 -
 
-# Señal Institucional #
-http://www.senalinstitucional.gov.co/
-rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
-
 # Canal Uno #
 http://www.canaluno.com.co/
 
 ## Noticias uno
 http://noticiasunolaredindependiente.com/senal-en-vivo/
 
-# Señal Colombia #
-http://www.senalcolombia.tv/player/popupsc/
-rtmp://cdns724ste1021.multistream.net/rtvc2live/live-500
-
-# Canal 13 #
-http://www.canal13.com.co/
-rtmp://cdns724ste1010.multistream.net/canaltr3celive/live-300
-
 # CityTV, no tiene link para senal al vivo
 
 # Eltiempo TV #
 http://www.canaleltiempo.tv/envivo
+
+# Teleantioquia #
+http://www.teleantioquia.co/en-vivo/
+
