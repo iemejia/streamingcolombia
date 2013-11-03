@@ -29,6 +29,7 @@ http://api.new.livestream.com/broadcasts/33720469.smil
 
 and with this build the real address that it is:
 head.httpBase content + video.src
+http://livestream-f.akamaihd.net/4239881_2169976_4e9fca3d_1_446@117636
 
 # RCN #
 http://www.canalrcnmsn.com/streamingrcn
@@ -37,6 +38,15 @@ IP restricted
 # Caracol #
 https://www.caracoltv.com/senal-vivo
 IP restricted
+
+rtmpdump --rtmp rtmp://cp101307.live.edgefcs.net/live/ \
+         --playpath V2djhrMTqxeN7cqjwSceDrDk7Im9z-x2_640_360_396@29268 \
+         --swfVfy "http://player.ooyala.com/static/cacheable/d971cae356b4a0f432dd862f67590af6/player_v2.swf?version=2&embedType=nuplayer&embedStyle=mjolnir/[[DYNAMIC]]/3" \
+         --app live?_fcs_vhost=cp101307.live.edgefcs.net \
+         --flashVer "MAC 11,9,900,117" \
+         --pageUrl http://www.caracoltv.com/senal-vivo \
+         --tcUrl rtmp://23.15.5.185/live?_fcs_vhost=cp101307.live.edgefcs.net \
+         --live | mplayer -cache 512 -
 
 # Señal Institucional #
 http://www.senalinstitucional.gov.co/
