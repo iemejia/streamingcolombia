@@ -12,6 +12,7 @@ IP restricted
 ## Caracol ##
 https://www.caracoltv.com/senal-vivo
 IP restricted
+ooyala.com
 
 rtmpdump --rtmp rtmp://cp101307.live.edgefcs.net/live/ \
          --playpath V2djhrMTqxeN7cqjwSceDrDk7Im9z-x2_640_360_396@29268 \
@@ -22,10 +23,6 @@ rtmpdump --rtmp rtmp://cp101307.live.edgefcs.net/live/ \
          --tcUrl rtmp://23.15.5.185/live?_fcs_vhost=cp101307.live.edgefcs.net \
          --live | mplayer -cache 512 -
 
-## NTN24 ##
-http://www.ntn24.com/
-http://www.ntn24.com/envivo
-
 ## Canal Uno ##
 http://www.canaluno.com.co/
 
@@ -33,9 +30,6 @@ http://www.canaluno.com.co/
 http://noticiasunolaredindependiente.com/senal-en-vivo/
 
 ## CityTV, no tiene link para senal al vivo ##
-
-## Eltiempo TV ##
-http://www.canaleltiempo.tv/envivo
 
 ## Teleantioquia ##
 http://www.teleantioquia.co/en-vivo/
@@ -45,13 +39,14 @@ http://www.livestream.com/teleantioquiawebs
 http://telecafe.gov.co/en/
 http://www.livestream.com/telecafe
 
-## Telepacífico ##
-http://www.telepacifico.com/senal-en-vivo
-
 ## TV Orinoquia ##
 http://tvorinoquia.net/
 http://tvorinoquia.net/se%C3%B1al-en-vivo.html
 usa justin.tv
+
+## NTN24 ##
+http://www.ntn24.com/
+http://www.ntn24.com/envivo
 
 ## Tu Kanal ##
 http://www.tukanal.tv/
@@ -61,13 +56,25 @@ ustream
 http://www.teleamiga.tv/
 mms://208.109.243.17:8081/teleamiga
 
-## Canal TRO ##
-http://www.canaltro.com/Nuestra-region-Nuestra-television/
-rtmp://cdns724ste1010.multistream.net/canaltro2live/live-500
-
 ## Nacion TV ##
 http://www.naciontv.co/al_aire.html
 ustream
+
+## Eltiempo TV ##
+http://www.canaleltiempo.tv/envivo
+ooyala.com
+
+## Cable Noticias ##
+http://www.cablenoticias.tv/
+cablenoticiastv
+
+## Zoom Canal ##
+http://www.zoomcanal.com.co/Canalenl%C3%ADnea/tabid/706/Default.aspx
+http://www.livestream.com/canalzoomtv
+
+## Señal Senado ##
+http://www.senado.gov.co/envivo
+mms://190.26.211.99/senado
 
 # DONE #
 
@@ -84,7 +91,7 @@ http://www.senalcolombia.tv/player/popupsc/
 rtmp://cdns724ste1010.multistream.net/rtvc2live/live-500
 
 # Canal Capital #
-
+http://www.canalcapital.gov.co/
 http://new.livestream.com/accounts/4239881/events/2169976
 
 livestream.com
@@ -116,12 +123,17 @@ http://livestream-f.akamaihd.net/4239881_2169976_4e9fca3d_1_446@117636
 ## Telemedellin ##
 http://www.telemedellin.tv/Paginas/senalenvivo.aspx
 http://new.livestream.com/accounts/4608897/events/2230380
-ver esquema de canal capital
+* ver esquema de canal capital
 
 ## Telecaribe ##
 http://www.telecaribe.com.co/index.php?option=com_content&view=article&id=136&Itemid=255
 rtmp://cdns724ste1021.multistream.net/telecaribelive/liveDVR-400
 
+## Telepacífico ##
+http://www.telepacifico.com/senal-en-vivo
+rtmp://cdns724ste1010.multistream.net/telepacificolive/live-300
 
-
+## Canal TRO ##
+http://www.canaltro.com/Nuestra-region-Nuestra-television/
+rtmp://cdns724ste1010.multistream.net/canaltro2live/live-500
 
