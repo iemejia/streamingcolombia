@@ -1,4 +1,5 @@
 #!/usr/local/bin/env python
+# -*- coding: utf-8 -*-
 
 from __future__ import print_function
 
@@ -6,7 +7,7 @@ from .livestreamextractor import LiveStreamExtractor
 
 class CanalCapitalExtractor(LiveStreamExtractor):
 
-    NAME = 'Canal Capital'
+    NAME = u'Canal Capital'
     WEBPAGE_URL = 'http://www.canalcapital.gov.co/'
 
     account_id = '4239881'

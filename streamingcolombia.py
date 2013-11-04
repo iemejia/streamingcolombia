@@ -1,13 +1,7 @@
 #!/usr/local/bin/env python
+# -*- coding: utf-8 -*-
 
-from extractors.canalcapital import CanalCapitalExtractor
-from extractors.senalinstitucional import SenalInstitucionalExtractor
-from extractors.senalcolombia import SenalColombiaExtractor
-from extractors.canal13 import Canal13Extractor
-from extractors.telecaribe import TeleCaribeExtractor
-from extractors.telemedellin import TeleMedellinExtractor
-from extractors.canaltro import CanalTROExtractor
-from extractors.telepacifico import TelePacificoExtractor
+from extractors import *
 
 extractors = [CanalCapitalExtractor(), SenalInstitucionalExtractor(),
               SenalColombiaExtractor(), Canal13Extractor(),

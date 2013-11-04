@@ -16,3 +16,5 @@ and then open it with [VLC](http://www.videolan.org/vlc/).
 You can also play individual streams with ffplay, e.g.
 
 	ffplay rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
+
+This plugin is compatible with python > 2.6. It doesn't use any additional packages.
