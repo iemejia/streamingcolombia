@@ -45,11 +45,29 @@ http://www.livestream.com/teleantioquiawebs
 http://telecafe.gov.co/en/
 http://www.livestream.com/telecafe
 
+## Telepacífico ##
+http://www.telepacifico.com/senal-en-vivo
+
 ## TV Orinoquia ##
 http://tvorinoquia.net/
 http://tvorinoquia.net/se%C3%B1al-en-vivo.html
 usa justin.tv
 
+## Tu Kanal ##
+http://www.tukanal.tv/
+ustream
+
+## Teleamiga ##
+http://www.teleamiga.tv/
+mms://208.109.243.17:8081/teleamiga
+
+## Canal TRO ##
+http://www.canaltro.com/Nuestra-region-Nuestra-television/
+rtmp://cdns724ste1010.multistream.net/canaltro2live/live-500
+
+## Nacion TV ##
+http://www.naciontv.co/al_aire.html
+ustream
 
 # DONE #
 

@@ -6,10 +6,12 @@ from extractors.senalcolombia import SenalColombiaExtractor
 from extractors.canal13 import Canal13Extractor
 from extractors.telecaribe import TeleCaribeExtractor
 from extractors.telemedellin import TeleMedellinExtractor
+from extractors.canaltro import CanalTROExtractor
 
 extractors = [CanalCapitalExtractor(), SenalInstitucionalExtractor(),
               SenalColombiaExtractor(), Canal13Extractor(),
-              TeleCaribeExtractor(), TeleMedellinExtractor()]
+              TeleCaribeExtractor(), TeleMedellinExtractor(),
+              CanalTROExtractor()]
 
 
 ITEM = '#EXTINF:0, '
