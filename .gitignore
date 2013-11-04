@@ -1,5 +1,6 @@
 .DS_Store
 *.pcapng
+*.m3u
 
 # python
 *.py[cod]

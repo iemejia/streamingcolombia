@@ -61,4 +61,16 @@ http://www.canaleltiempo.tv/envivo
 
 # Teleantioquia #
 http://www.teleantioquia.co/en-vivo/
+http://www.livestream.com/teleantioquiawebs
+
+# Telemedellin #
+http://www.telemedellin.tv/Paginas/senalenvivo.aspx
+http://new.livestream.com/accounts/4608897/events/2230380
+ver esquema de canal capital
+
+# Telecaribe #
+http://www.telecaribe.com.co/index.php?option=com_content&view=article&id=136&Itemid=255
+
+
+
 
