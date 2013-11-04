@@ -1,6 +1,70 @@
 Dev Info
 ========
 
+Ref. https://es.wikipedia.org/wiki/Anexo:Canales_de_televisi%C3%B3n_de_Colombia
+
+# TODO #
+
+## RCN ##
+http://www.canalrcnmsn.com/streamingrcn
+IP restricted
+
+## Caracol ##
+https://www.caracoltv.com/senal-vivo
+IP restricted
+
+rtmpdump --rtmp rtmp://cp101307.live.edgefcs.net/live/ \
+         --playpath V2djhrMTqxeN7cqjwSceDrDk7Im9z-x2_640_360_396@29268 \
+         --swfVfy "http://player.ooyala.com/static/cacheable/d971cae356b4a0f432dd862f67590af6/player_v2.swf?version=2&embedType=nuplayer&embedStyle=mjolnir/[[DYNAMIC]]/3" \
+         --app live?_fcs_vhost=cp101307.live.edgefcs.net \
+         --flashVer "MAC 11,9,900,117" \
+         --pageUrl http://www.caracoltv.com/senal-vivo \
+         --tcUrl rtmp://23.15.5.185/live?_fcs_vhost=cp101307.live.edgefcs.net \
+         --live | mplayer -cache 512 -
+
+## NTN24 ##
+http://www.ntn24.com/
+http://www.ntn24.com/envivo
+
+## Canal Uno ##
+http://www.canaluno.com.co/
+
+## Noticias uno ##
+http://noticiasunolaredindependiente.com/senal-en-vivo/
+
+## CityTV, no tiene link para senal al vivo ##
+
+## Eltiempo TV ##
+http://www.canaleltiempo.tv/envivo
+
+## Teleantioquia ##
+http://www.teleantioquia.co/en-vivo/
+http://www.livestream.com/teleantioquiawebs
+
+## Telecafé ##
+http://telecafe.gov.co/en/
+http://www.livestream.com/telecafe
+
+## TV Orinoquia ##
+http://tvorinoquia.net/
+http://tvorinoquia.net/se%C3%B1al-en-vivo.html
+usa justin.tv
+
+
+# DONE #
+
+## Canal 13 ##
+http://www.canal13.com.co/
+rtmp://cdns724ste1010.multistream.net/canaltr3celive/live-300
+
+## Señal Institucional ##
+http://www.senalinstitucional.gov.co/
+rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
+
+## Señal Colombia ##
+http://www.senalcolombia.tv/player/popupsc/
+rtmp://cdns724ste1010.multistream.net/rtvc2live/live-500
+
 # Canal Capital #
 
 http://new.livestream.com/accounts/4239881/events/2169976
@@ -31,45 +95,14 @@ and with this build the real address that it is:
 head.httpBase content + video.src
 http://livestream-f.akamaihd.net/4239881_2169976_4e9fca3d_1_446@117636
 
-# RCN #
-http://www.canalrcnmsn.com/streamingrcn
-IP restricted
-
-# Caracol #
-https://www.caracoltv.com/senal-vivo
-IP restricted
-
-rtmpdump --rtmp rtmp://cp101307.live.edgefcs.net/live/ \
-         --playpath V2djhrMTqxeN7cqjwSceDrDk7Im9z-x2_640_360_396@29268 \
-         --swfVfy "http://player.ooyala.com/static/cacheable/d971cae356b4a0f432dd862f67590af6/player_v2.swf?version=2&embedType=nuplayer&embedStyle=mjolnir/[[DYNAMIC]]/3" \
-         --app live?_fcs_vhost=cp101307.live.edgefcs.net \
-         --flashVer "MAC 11,9,900,117" \
-         --pageUrl http://www.caracoltv.com/senal-vivo \
-         --tcUrl rtmp://23.15.5.185/live?_fcs_vhost=cp101307.live.edgefcs.net \
-         --live | mplayer -cache 512 -
-
-# Canal Uno #
-http://www.canaluno.com.co/
-
-## Noticias uno
-http://noticiasunolaredindependiente.com/senal-en-vivo/
-
-# CityTV, no tiene link para senal al vivo
-
-# Eltiempo TV #
-http://www.canaleltiempo.tv/envivo
-
-# Teleantioquia #
-http://www.teleantioquia.co/en-vivo/
-http://www.livestream.com/teleantioquiawebs
-
-# Telemedellin #
+## Telemedellin ##
 http://www.telemedellin.tv/Paginas/senalenvivo.aspx
 http://new.livestream.com/accounts/4608897/events/2230380
 ver esquema de canal capital
 
-# Telecaribe #
+## Telecaribe ##
 http://www.telecaribe.com.co/index.php?option=com_content&view=article&id=136&Itemid=255
+rtmp://cdns724ste1021.multistream.net/telecaribelive/liveDVR-400
 
 
 
