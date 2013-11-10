@@ -9,19 +9,9 @@ Ref. https://es.wikipedia.org/wiki/Anexo:Canales_de_televisi%C3%B3n_de_Colombia
 http://www.canalrcnmsn.com/streamingrcn
 IP restricted
 
-## Caracol ##
-https://www.caracoltv.com/senal-vivo
-IP restricted
-ooyala.com
+curl -v -A "Mozilla/5.0 (iPad; CPU OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B329 Safari/8536.25" -X GET http://envivo.canalrcn.com/envivo/canalrcn/playlist.m3u8
 
-rtmpdump --rtmp rtmp://cp101307.live.edgefcs.net/live/ \
-         --playpath V2djhrMTqxeN7cqjwSceDrDk7Im9z-x2_640_360_396@29268 \
-         --swfVfy "http://player.ooyala.com/static/cacheable/d971cae356b4a0f432dd862f67590af6/player_v2.swf?version=2&embedType=nuplayer&embedStyle=mjolnir/[[DYNAMIC]]/3" \
-         --app live?_fcs_vhost=cp101307.live.edgefcs.net \
-         --flashVer "MAC 11,9,900,117" \
-         --pageUrl http://www.caracoltv.com/senal-vivo \
-         --tcUrl rtmp://23.15.5.185/live?_fcs_vhost=cp101307.live.edgefcs.net \
-         --live | mplayer -cache 512 -
+vlc -vvv http://envivo.canalrcn.com/envivo/canalrcn/playlist.m3u8 :http-user-agent="Mozilla/5.0 (iPad; CPU OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B329 Safari/8536.25"
 
 ## Canal Uno ##
 http://www.canaluno.com.co/
@@ -77,6 +67,22 @@ http://www.senado.gov.co/envivo
 mms://190.26.211.99/senado
 
 # DONE #
+
+## Canal Caracol ##
+https://www.caracoltv.com/senal-vivo
+rtmp://cp101307.live.edgefcs.net/live/V2djhrMTqxeN7cqjwSceDrDk7Im9z-x2_640_360_396@29268
+
+IP restricted
+ooyala.com
+
+rtmpdump --rtmp rtmp://cp101307.live.edgefcs.net/live/ \
+         --playpath V2djhrMTqxeN7cqjwSceDrDk7Im9z-x2_640_360_396@29268 \
+         --swfVfy "http://player.ooyala.com/static/cacheable/d971cae356b4a0f432dd862f67590af6/player_v2.swf?version=2&embedType=nuplayer&embedStyle=mjolnir/[[DYNAMIC]]/3" \
+         --app live?_fcs_vhost=cp101307.live.edgefcs.net \
+         --flashVer "MAC 11,9,900,117" \
+         --pageUrl http://www.caracoltv.com/senal-vivo \
+         --tcUrl rtmp://23.15.5.185/live?_fcs_vhost=cp101307.live.edgefcs.net \
+         --live | mplayer -cache 512 -
 
 ## Canal 13 ##
 http://www.canal13.com.co/
