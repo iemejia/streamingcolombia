@@ -9,7 +9,7 @@ This script generates a playlist (m3u file) of live TV streaming channels from C
 
 To use it, you just have to first generate the playlist file:
 
-	python streamingcolombia.py > playlist.m3u
+	python streaming-co > playlist.m3u
 
 and then open it with [VLC](http://www.videolan.org/vlc/).
 
