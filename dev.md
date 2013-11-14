@@ -47,16 +47,10 @@ http://www.zoomcanal.com.co/Canalenl%C3%ADnea/tabid/706/Default.aspx
 http://www.zoomcanal.com.co/Portals/0/img_LogoZoom.jpg
 http://www.livestream.com/canalzoomtv
 
-## NTN24 ##
-http://www.ntn24.com/
-http://www.ntn24.com/envivo
-http://www.youtube.com/watch?v=xzMfw-N7LZc#t=79026
-
 ## Nacion TV ##
 http://www.naciontv.co/al_aire.html
 http://www.naciontv.co/_interfAz_CK!/naciontv.png
 ustream
-
 
 
 # BROKEN
@@ -176,6 +170,12 @@ rtmp://50.23.172.98:1935/live/cablenoticiastv
 http://www.teleamiga.tv/
 http://www.teleamiga.tv/templates/tr_neutrino/images/logos/logo.png
 mms://208.109.243.17:8081/teleamiga
+
+## NTN24 ##
+http://www.ntn24.com/
+http://www.ntn24.com/envivo
+http://www.ntn24.com/sites/all/themes/ntn24/images/logontn24.png
+http://www.youtube.com/watch?v=xzMfw-N7LZc#t=79026
 
 # References
 https://es.wikipedia.org/wiki/Televisi%C3%B3n_en_Colombia

@@ -15,6 +15,8 @@ rtmp://cdns724ste1021.multistream.net/telecaribelive/liveDVR-400
 rtmp://cdns724ste1010.multistream.net/telepacificolive/live-300
 #EXTINF:0, Canal TRO
 rtmp://cdns724ste1010.multistream.net/canaltro2live/live-500
+#EXTINF:0, NTN24
+http://www.youtube.com/watch?v=xzMfw-N7LZc#t=79026
 #EXTINF:0, Tele Amiga
 mms://208.109.243.17:8081/teleamiga
 

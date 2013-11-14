@@ -15,7 +15,7 @@ class ColombiaTVInternetExtractor():
                   Canal13Extractor(), CableNoticiasExtractor(),
                   TeleCaribeExtractor(), TelePacificoExtractor(),
                   CanalTROExtractor(), TeleMedellinExtractor(),
-                  TeleAmigaExtractor()]
+                  NTN24Extractor(), TeleAmigaExtractor()]
 
     def __generate_m3u_file__(self, extractors):
         s = u'#EXTM3U' + '\n'
@@ -48,7 +48,7 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     if len(args) == 0:
         print(ColombiaTVInternetExtractor().generate_all())
-    if len(args) == 1:
+    elif len(args) == 1:
         if args[0] == 'static':
             print(ColombiaTVInternetExtractor().generate_static_m3u_file())
         if args[0] == 'xbmc':
