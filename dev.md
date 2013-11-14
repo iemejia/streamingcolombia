@@ -13,16 +13,9 @@ curl -v -A "Mozilla/5.0 (iPad; CPU OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (K
 
 vlc -vvv http://envivo.canalrcn.com/envivo/canalrcn/playlist.m3u8 :http-user-agent="Mozilla/5.0 (iPad; CPU OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B329 Safari/8536.25"
 
-## Canal Uno ##
-http://www.canaluno.com.co/
-
-## Noticias uno ##
-http://noticiasunolaredindependiente.com/senal-en-vivo/
-
-## CityTV, no tiene link para senal al vivo ##
-
 ## Teleantioquia ##
 http://www.teleantioquia.co/en-vivo/
+http://www.teleantioquia.co/v2_base/file_loader.php?id_file=12080-m21
 http://www.livestream.com/teleantioquiawebs
 
 rtmp://xteleantioquiawebsx.e.channel.livestream.com/mogulus-edge/teleantioquiawebs
@@ -44,46 +37,60 @@ Property 'streamId' String 'teleantioquiawebs_380030e0-87b1-48bf-8d66-3bbdd5ad47
 
 Property 'description' String 'Started playing rtmp://212-94.livestream.com/affiliateStream/teleantioquiawebs/6c69766572657065617465723a72746d703a2f2f3231322d39342e6c69766573747265616d2e636f6d2f6d6f67756c75732f74656c65616e74696f71756961776
 
-## Telecafé ##
+## Telecafé (same connection mechanism than Teleantioquia)
 http://telecafe.gov.co/en/
+http://telecafe.gov.co/wp-content/uploads/2013/11/logo-telecafe-2013.png
 http://www.livestream.com/telecafe
 
-## TV Orinoquia ##
-http://tvorinoquia.net/
-http://tvorinoquia.net/se%C3%B1al-en-vivo.html
-usa justin.tv
+## Zoom Canal (same connection mechanism than Zoom Canal)
+http://www.zoomcanal.com.co/Canalenl%C3%ADnea/tabid/706/Default.aspx
+http://www.zoomcanal.com.co/Portals/0/img_LogoZoom.jpg
+http://www.livestream.com/canalzoomtv
 
 ## NTN24 ##
 http://www.ntn24.com/
 http://www.ntn24.com/envivo
-
-## Tu Kanal ##
-http://www.tukanal.tv/
-ustream
-
-## Teleamiga ##
-http://www.teleamiga.tv/
-mms://208.109.243.17:8081/teleamiga
+http://www.youtube.com/watch?v=xzMfw-N7LZc#t=79026
 
 ## Nacion TV ##
 http://www.naciontv.co/al_aire.html
+http://www.naciontv.co/_interfAz_CK!/naciontv.png
 ustream
 
-## Eltiempo TV ##
-http://www.canaleltiempo.tv/envivo
-ooyala.com
 
-## Cable Noticias ##
-http://www.cablenoticias.tv/
-cablenoticiastv
 
-## Zoom Canal ##
-http://www.zoomcanal.com.co/Canalenl%C3%ADnea/tabid/706/Default.aspx
-http://www.livestream.com/canalzoomtv
+# BROKEN
+
+## Canal Uno ##
+http://www.canaluno.com.co/
+https://upload.wikimedia.org/wikipedia/en/d/d5/Canal-Uno-Colombia-logo-2000s.jpg
+
+### Noticias Uno
+http://noticiasunolaredindependiente.com/senal-en-vivo/
+multistream
+
+## Tu Kanal ##
+http://www.tukanal.tv/
+ustream, not working
+
+## TV Orinoquia ##
+http://tvorinoquia.net/
+http://tvorinoquia.net/se%C3%B1al-en-vivo.html
+justin.tv, not working
 
 ## Señal Senado ##
 http://www.senado.gov.co/envivo
 mms://190.26.211.99/senado
+not working, isn't it ironic ?
+
+## Eltiempo TV ##
+http://www.canaleltiempo.tv/envivo
+http://www.canaleltiempo.tv/sites/default/files/canal-el-tiempo-footer.jpg
+not available via open internet
+
+## CityTV, no tiene link para senal al vivo ##
+http://www.citytv.com.co/
+http://www.citytv.com.co/media/images/logoCitytvcomco.png
 
 # DONE #
 
@@ -111,11 +118,11 @@ rtmp://cdns724ste1010.multistream.net/canaltr3celive/live-300
 http://www.senalinstitucional.gov.co/
 rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
 
-## Señal Colombia ##
+## Señal Colombia
 http://www.senalcolombia.tv/player/popupsc/
 rtmp://cdns724ste1010.multistream.net/rtvc2live/live-500
 
-# Canal Capital #
+## Canal Capital
 http://www.canalcapital.gov.co/
 http://new.livestream.com/accounts/4239881/events/2169976
 
@@ -155,12 +162,20 @@ http://www.telecaribe.com.co/index.php?option=com_content&view=article&id=136&It
 rtmp://cdns724ste1021.multistream.net/telecaribelive/liveDVR-400
 
 ## Telepacífico ##
-http://www.telepacifico.com/senal-en-vivo
-rtmp://cdns724ste1010.multistream.net/telepacificolive/live-300
+http://www.telepacifico.com/senal-en-viv
 
 ## Canal TRO ##
 http://www.canaltro.com/Nuestra-region-Nuestra-television/
 rtmp://cdns724ste1010.multistream.net/canaltro2live/live-500
+
+## Cable Noticias ##
+http://www.cablenoticias.tv/
+rtmp://50.23.172.98:1935/live/cablenoticiastv
+
+## Teleamiga ##
+http://www.teleamiga.tv/
+http://www.teleamiga.tv/templates/tr_neutrino/images/logos/logo.png
+mms://208.109.243.17:8081/teleamiga
 
 # References
 https://es.wikipedia.org/wiki/Televisi%C3%B3n_en_Colombia
