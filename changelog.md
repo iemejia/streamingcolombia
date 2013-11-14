@@ -7,6 +7,7 @@ Changelog
 [core] support to disable channels (IS_PLAYABLE)
 [core] support for channel logos (LOGO_URL)
 [core] support extract method for xbmc plugin (ColombiaTVInternetExtractor().get_channels)
+[core] new static generated playlist for direct access from [github](https://raw.github.com/iemejia/streamingcolombia/master/tvcolombia-static.m3u)
 
 20131110
 [new] Canal Caracol

@@ -1,0 +1,18 @@
+#EXTM3U
+#EXTINF:0, Señal Institucional
+rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
+#EXTINF:0, Señal Colombia
+rtmp://cdns724ste1010.multistream.net/rtvc2live/live-500
+#EXTINF:0, Canal 13
+rtmp://cdns724ste1010.multistream.net/canaltr3celive/live-300
+#EXTINF:0, Cable Noticias
+rtmp://50.23.172.98:1935/live/cablenoticiastv
+#EXTINF:0, Tele Caribe
+rtmp://cdns724ste1021.multistream.net/telecaribelive/liveDVR-400
+#EXTINF:0, Tele Pacífico
+rtmp://cdns724ste1010.multistream.net/telepacificolive/live-300
+#EXTINF:0, Canal TRO
+rtmp://cdns724ste1010.multistream.net/canaltro2live/live-500
+#EXTINF:0, Tele Amiga
+mms://208.109.243.17:8081/teleamiga
+
