@@ -38,14 +38,16 @@ TVColombia XBMC plugin, for more info see
 
 ## advanced users
 
-You can also play (and capture) individual streams from the individual entries 
-of the playlist using rtmpdump, mplayer or ffplay e.g.
+You can also play (and capture) individual streams from the individual rtmp 
+channels of the playlist using rtmpdump, mplayer or ffplay e.g.
+
+to play Señal Institucional, look for the URL and then:
 
 	ffplay rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
 
-or
+to capture Señal Institucional:
 
-	rtmpdump tmp://cdns724ste1021.multistream.net/rtvclive/live-500
+	rtmpdump -o senalinstitucional.flv -r rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
 
 # Legal
 

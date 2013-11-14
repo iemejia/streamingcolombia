@@ -39,3 +39,12 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# media files
+*.mp3
+*.flv
+*.mp4
+*.ts
+*.m4v
+*.avi
+
