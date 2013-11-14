@@ -9,6 +9,6 @@ class CanalCapitalExtractor(LiveStreamExtractor):
 
     NAME = u'Canal Capital'
     WEBPAGE_URL = 'http://www.canalcapital.gov.co/'
-
+    LOGO_URL = 'http://www.canalcapital.gov.co/templates/canal_capital_2011/images/logo-navidad-2012.png'
     account_id = '4239881'
     event_id = '2169976'
