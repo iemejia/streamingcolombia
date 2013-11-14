@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:0, Canal Capital
+http://livestream-f.akamaihd.net/i/4239881_2169976_f3c8e868_1@117636/master.m3u8?dw=100&__b__=446
 #EXTINF:0, Canal Caracol
 rtmp://cp101307.live.edgefcs.net/live/V2djhrMTqxeN7cqjwSceDrDk7Im9z-x2_640_360_396@29268
 #EXTINF:0, Señal Institucional
@@ -9,12 +11,22 @@ rtmp://cdns724ste1010.multistream.net/rtvc2live/live-500
 rtmp://cdns724ste1010.multistream.net/canaltr3celive/live-300
 #EXTINF:0, Cable Noticias
 rtmp://50.23.172.98:1935/live/cablenoticiastv
+#EXTINF:0, Zoom Canal
+http://xcanalzoomtvx.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:0, Teleantioquia
+http://xteleantioquiawebsx.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:0, Telecafé
+http://xtelecafex.api.channel.livestream.com/3.0/playlist.m3u8
 #EXTINF:0, Tele Caribe
 rtmp://cdns724ste1021.multistream.net/telecaribelive/liveDVR-400
 #EXTINF:0, Tele Pacífico
 rtmp://cdns724ste1010.multistream.net/telepacificolive/live-300
 #EXTINF:0, Canal TRO
 rtmp://cdns724ste1010.multistream.net/canaltro2live/live-500
+#EXTINF:0, TeleMedellín
+http://api.new.livestream.com/broadcasts/34806153.m3u8?dw=100
+#EXTINF:0, Nación TV
+rhttp://sjc-uhls-vip03.ustream.tv/watch/playlist.m3u8?cid=14418655&appType=11&appVersion=2&locks=97d170e1550eee4afc0af065b78cda302a97674c&geo=GB&geocity=Glasgow&userId=882388414&connectionId=sjc-ums10_882388414&ts=1384471278&ip=90.244.223.62&sgn=45549b17cbe08ebeb2df752b27987949a2876ab1
 #EXTINF:0, NTN24
 http://www.youtube.com/watch?v=xzMfw-N7LZc#t=79026
 #EXTINF:0, Tele Amiga

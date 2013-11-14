@@ -1,14 +1,12 @@
 #!/usr/local/bin/env python
 # -*- coding: utf-8 -*-
 
-from __future__ import print_function
+from .staticextractor import StaticExtractor
 
-from .livestreamextractor import LiveStreamExtractor
 
-class TeleMedellinExtractor(LiveStreamExtractor):
+class TeleMedellinExtractor(StaticExtractor):
 
     NAME = u'TeleMedellín'
     WEBPAGE_URL = 'http://www.telemedellin.tv/Paginas/senalenvivo.aspx'
     LOGO_URL = 'http://www.telemedellin.tv/images/static/logo.png'
-    account_id = '4608897'
-    event_id = '2230380'
+    STREAMING_URL = 'http://api.new.livestream.com/broadcasts/34806153.m3u8?dw=100'

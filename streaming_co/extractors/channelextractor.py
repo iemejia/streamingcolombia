@@ -1,7 +1,9 @@
 #!/usr/local/bin/env python
 # -*- coding: utf-8 -*-
 
+
 class ChannelExtractor():
+
 	NAME = ''
 	WEBPAGE_URL = ''
 	IS_PLAYABLE = True

@@ -1,44 +1,6 @@
 Dev Info
 ========
 
-# TODO #
-
-## Teleantioquia
-http://www.teleantioquia.co/en-vivo/
-http://www.teleantioquia.co/v2_base/file_loader.php?id_file=12080-m21
-http://www.livestream.com/teleantioquiawebs
-
-rtmp://xteleantioquiawebsx.e.channel.livestream.com/mogulus-edge/teleantioquiawebs
-
-Property 'streamId' String 'teleantioquiawebs_380030e0-87b1-48bf-8d66-3bbdd5ad4710'
-Property 'uri' String 'rtmp://212-94.livestream.com'
-
-Property 'embedUrl' String 'http://www.livestream.com/embed/teleantioquiawebs?showMoreVideos=false&hideInfo=true&autoPlay=true&lschannel=true&browseMode=false&textLines=2&hideChannelBranding=true&mode=false&allowchat=false&layout=1&t=31272
-
-String '20121889-d6ab-4863-89b8-72a8adadff1b'
-
-rtmpdump -V -r rtmp://extondemand.livestream.com/ondemand/mogulus-edge/teleantioquiawebs/ --swfVfy --flashVer "MAC 11,9,900,117" --swfUrl "https://cdn.livestream.com/chromelessPlayer/v21/playerapi.swf?textLines=2&hideChannelBranding=true&hideInfo=true&mode=false&iconColor=0x555555&borderColor=0xCCCCCC&autoPlay=true&allowchat=false&showBorderControlBa"
-
-Property 'uri' String 'rtmp://212-94.livestream.com'
-Property 'streamId' String 'teleantioquiawebs_380030e0-87b1-48bf-8d66-3bbdd5ad4710'
-
-Property 'description' String 'Started playing rtmp://212-94.livestream.com/affiliateStream/teleantioquiawebs/6c69766572657065617465723a72746d703a2f2f3231322d39342e6c69766573747265616d2e636f6d2f6d6f67756c75732f74656c65616e74696f71756961776
-
-## Telecafé (same connection mechanism than Teleantioquia)
-http://telecafe.gov.co/en/
-http://telecafe.gov.co/wp-content/uploads/2013/11/logo-telecafe-2013.png
-http://www.livestream.com/telecafe
-
-## Zoom Canal (same connection mechanism than Zoom Canal)
-http://www.zoomcanal.com.co/Canalenl%C3%ADnea/tabid/706/Default.aspx
-http://www.zoomcanal.com.co/Portals/0/img_LogoZoom.jpg
-http://www.livestream.com/canalzoomtv
-
-## Nacion TV
-http://www.naciontv.co/al_aire.html
-http://www.naciontv.co/_interfAz_CK!/naciontv.png
-http://www.ustream.tv/recorded/38341289
-
 # BROKEN
 
 ## RCN
@@ -55,7 +17,7 @@ https://upload.wikimedia.org/wikipedia/en/d/d5/Canal-Uno-Colombia-logo-2000s.jpg
 
 ### Noticias Uno
 http://noticiasunolaredindependiente.com/senal-en-vivo/
-multistream
+multistream, it only works in the time where they pass the news (discarted)
 
 ## Tu Kanal
 http://www.tukanal.tv/
@@ -80,7 +42,8 @@ not available via open internet
 http://www.citytv.com.co/
 http://www.citytv.com.co/media/images/logoCitytvcomco.png
 
-# DONE #
+
+# DONE
 
 ## Canal Caracol
 https://www.caracoltv.com/senal-vivo
@@ -113,6 +76,7 @@ rtmp://cdns724ste1010.multistream.net/rtvc2live/live-500
 ## Canal Capital
 http://www.canalcapital.gov.co/
 http://new.livestream.com/accounts/4239881/events/2169976
+http://livestream-f.akamaihd.net/i/4239881_2169976_f3c8e868_1@117636/master.m3u8?dw=100&__b__=446
 
 livestream.com
 
@@ -170,6 +134,47 @@ http://www.ntn24.com/
 http://www.ntn24.com/envivo
 http://www.ntn24.com/sites/all/themes/ntn24/images/logontn24.png
 http://www.youtube.com/watch?v=xzMfw-N7LZc#t=79026
+
+## Teleantioquia
+http://www.teleantioquia.co/en-vivo/
+http://www.teleantioquia.co/v2_base/file_loader.php?id_file=12080-m21
+http://www.livestream.com/teleantioquiawebs
+http://xteleantioquiawebsx.api.channel.livestream.com/3.0/playlist.m3u8
+http://ichunk.livestream.com/212.173/livestreamiphone/teleantioquiawebs-Teleantioquia20131114-165649/chunklist.m3u8?wowzasessionid=1099100462
+
+rtmp://xteleantioquiawebsx.e.channel.livestream.com/mogulus-edge/teleantioquiawebs
+
+Property 'streamId' String 'teleantioquiawebs_380030e0-87b1-48bf-8d66-3bbdd5ad4710'
+Property 'uri' String 'rtmp://212-94.livestream.com'
+
+Property 'embedUrl' String 'http://www.livestream.com/embed/teleantioquiawebs?showMoreVideos=false&hideInfo=true&autoPlay=true&lschannel=true&browseMode=false&textLines=2&hideChannelBranding=true&mode=false&allowchat=false&layout=1&t=31272
+
+String '20121889-d6ab-4863-89b8-72a8adadff1b'
+
+rtmpdump -V -r rtmp://extondemand.livestream.com/ondemand/mogulus-edge/teleantioquiawebs/ --swfVfy --flashVer "MAC 11,9,900,117" --swfUrl "https://cdn.livestream.com/chromelessPlayer/v21/playerapi.swf?textLines=2&hideChannelBranding=true&hideInfo=true&mode=false&iconColor=0x555555&borderColor=0xCCCCCC&autoPlay=true&allowchat=false&showBorderControlBa"
+
+Property 'uri' String 'rtmp://212-94.livestream.com'
+Property 'streamId' String 'teleantioquiawebs_380030e0-87b1-48bf-8d66-3bbdd5ad4710'
+
+Property 'description' String 'Started playing rtmp://212-94.livestream.com/affiliateStream/teleantioquiawebs/6c69766572657065617465723a72746d703a2f2f3231322d39342e6c69766573747265616d2e636f6d2f6d6f67756c75732f74656c65616e74696f71756961776
+
+## Telecafé (same connection mechanism than Teleantioquia)
+http://telecafe.gov.co/en/
+http://telecafe.gov.co/wp-content/uploads/2013/11/logo-telecafe-2013.png
+http://www.livestream.com/telecafe
+http://xtelecafex.api.channel.livestream.com/3.0/playlist.m3u8
+
+## Zoom Canal (same connection mechanism than Zoom Canal)
+http://www.zoomcanal.com.co/Canalenl%C3%ADnea/tabid/706/Default.aspx
+http://www.zoomcanal.com.co/Portals/0/img_LogoZoom.jpg
+http://www.livestream.com/canalzoomtv
+http://xcanalzoomtvx.api.channel.livestream.com/3.0/playlist.m3u8
+
+## Nacion TV
+http://www.naciontv.co/al_aire.html
+http://www.naciontv.co/_interfAz_CK!/naciontv.png
+http://www.ustream.tv/recorded/38341289
+http://sjc-uhls-vip03.ustream.tv/watch/playlist.m3u8?cid=14418655&appType=11&appVersion=2&locks=97d170e1550eee4afc0af065b78cda302a97674c&geo=GB&geocity=Glasgow&userId=882388414&connectionId=sjc-ums10_882388414&ts=1384471278&ip=90.244.223.62&sgn=45549b17cbe08ebeb2df752b27987949a2876ab1
 
 # References
 https://es.wikipedia.org/wiki/Televisi%C3%B3n_en_Colombia

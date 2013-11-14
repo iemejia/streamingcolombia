@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 from .staticextractor import StaticExtractor
-from utils import *
 
 
 class SenalColombiaExtractor(StaticExtractor):

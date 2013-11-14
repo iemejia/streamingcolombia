@@ -8,13 +8,16 @@ from version import *
 
 import sys
 
+
 class ColombiaTVInternetExtractor():
 
-    extractors = [CanalCapitalExtractor(), CanalColombiaExtractor(),
+    extractors = [CanalCapitalExtractor(), CanalCaracolExtractor(),
                   SenalInstitucionalExtractor(), SenalColombiaExtractor(),
                   Canal13Extractor(), CableNoticiasExtractor(),
-                  TeleCaribeExtractor(), TelePacificoExtractor(),
-                  CanalTROExtractor(), TeleMedellinExtractor(),
+                  ZoomCanalExtractor(), TeleAntioquiaExtractor(),
+                  TeleCafeExtractor(), TeleCaribeExtractor(),
+                  TelePacificoExtractor(), CanalTROExtractor(),
+                  TeleMedellinExtractor(), NacionTVExtractor(),
                   NTN24Extractor(), TeleAmigaExtractor()]
 
     def __generate_m3u_file__(self, extractors):

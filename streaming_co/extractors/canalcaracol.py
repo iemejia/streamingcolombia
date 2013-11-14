@@ -2,10 +2,9 @@
 # -*- coding: utf-8 -*-
 
 from .staticextractor import StaticExtractor
-from utils import *
 
 
-class CanalColombiaExtractor(StaticExtractor):
+class CanalCaracolExtractor(StaticExtractor):
 
     NAME = u'Canal Caracol'
     WEBPAGE_URL = 'https://www.caracoltv.com/senal-vivo'

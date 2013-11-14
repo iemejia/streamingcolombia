@@ -62,4 +62,4 @@ This project includes exclusively TV Channels from Colombia, and it uses their
 
 More details on development info and channel extraction can be found
 in the file
-[dev.md](https://github.com/iemejia/streamingcolombia/blob/master/dev.md).
+[DEVELOPMENT.md](https://github.com/iemejia/streamingcolombia/blob/master/DEVELOPMENT.md).

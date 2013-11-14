@@ -3,9 +3,10 @@
 
 from .channelextractor import ChannelExtractor
 
+
 class StaticExtractor(ChannelExtractor):
 
-	STREAMING_URL = ''
+    STREAMING_URL = ''
 
-	def get_streaming_url(self):
-		return self.STREAMING_URL
+    def get_streaming_url(self):
+        return self.STREAMING_URL

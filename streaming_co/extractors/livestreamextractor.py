@@ -10,24 +10,23 @@ from .channelextractor import ChannelExtractor
 from utils import *
 from xml.dom import minidom
 
+
 class LiveStreamExtractor(ChannelExtractor):
 
     LIVESTREAM_API_URL = 'http://new.livestream.com/api/'
 
-    def get_video_info(self,account_id, event_id):
+    def get_video_info(self, account_id, event_id):
         url = self.LIVESTREAM_API_URL + \
             'accounts/%s/events/%s/viewing_info' % (account_id, event_id)
         return query(url)
 
-
-    def get_video_smil(self,account_id, event_id):
+    def get_video_smil(self, account_id, event_id):
         res = self.get_video_info(account_id, event_id)
         val = json.loads(res)
         # pprint.pprint(val)
         return val['streamInfo']['play_url']
 
-
-    def get_streaming_url_from_smil(self,smil):
+    def get_streaming_url_from_smil(self, smil):
         xml = minidom.parseString(smil)
         itemlist = xml.getElementsByTagName('meta')
         http_base = ''
