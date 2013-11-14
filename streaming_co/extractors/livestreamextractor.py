@@ -6,11 +6,11 @@ from __future__ import print_function
 import json
 # import pprint
 
-from .extractor import Extractor
+from .channelextractor import ChannelExtractor
 from utils import *
 from xml.dom import minidom
 
-class LiveStreamExtractor(Extractor):
+class LiveStreamExtractor(ChannelExtractor):
 
     LIVESTREAM_API_URL = 'http://new.livestream.com/api/'
 
@@ -39,12 +39,8 @@ class LiveStreamExtractor(Extractor):
         streaming_url = http_base + video_path
         return streaming_url
 
-    def extract(self):
+    def get_streaming_url(self):
         smil_url = self.get_video_smil(self.account_id,
                                        self.event_id)
         smil = query(smil_url)
         return self.get_streaming_url_from_smil(smil)
-
-if __name__ == "__main__":
-    e = CanalCapitalExtractor()
-    print(e.extract())

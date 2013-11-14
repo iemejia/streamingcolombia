@@ -12,7 +12,3 @@ class TeleMedellinExtractor(LiveStreamExtractor):
 
     account_id = '4608897'
     event_id = '2230380'
-
-if __name__ == "__main__":
-    e = TeleMedellinExtractor()
-    print(e.extract())

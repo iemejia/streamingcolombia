@@ -1,11 +1,11 @@
 #!/usr/local/bin/env python
 # -*- coding: utf-8 -*-
 
-from .extractor import Extractor
+from .channelextractor import ChannelExtractor
 
-class StaticExtractor(Extractor):
+class StaticExtractor(ChannelExtractor):
 
 	STREAMING_URL = ''
 
-	def extract(self):
+	def get_streaming_url(self):
 		return self.STREAMING_URL

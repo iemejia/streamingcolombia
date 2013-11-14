@@ -12,7 +12,3 @@ class CanalCapitalExtractor(LiveStreamExtractor):
 
     account_id = '4239881'
     event_id = '2169976'
-
-if __name__ == "__main__":
-    e = CanalCapitalExtractor()
-    print(e.extract())

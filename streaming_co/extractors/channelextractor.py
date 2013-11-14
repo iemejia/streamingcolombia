@@ -1,10 +1,12 @@
 #!/usr/local/bin/env python
 # -*- coding: utf-8 -*-
 
-class Extractor():
+class ChannelExtractor():
 	NAME = ''
 	WEBPAGE_URL = ''
+	IS_PLAYABLE = True
+	LOGO_URL = ''
 
-	def extract(self):
+	def get_streaming_url(self):
 		""" each channel extractor must implement extract """
 		return ''

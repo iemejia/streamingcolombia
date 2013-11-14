@@ -25,6 +25,25 @@ http://noticiasunolaredindependiente.com/senal-en-vivo/
 http://www.teleantioquia.co/en-vivo/
 http://www.livestream.com/teleantioquiawebs
 
+rtmp://xteleantioquiawebsx.e.channel.livestream.com/mogulus-edge/teleantioquiawebs
+
+Property 'streamId' String 'teleantioquiawebs_380030e0-87b1-48bf-8d66-3bbdd5ad4710'
+Property 'uri' String 'rtmp://212-94.livestream.com'
+
+
+Property 'embedUrl' String 'http://www.livestream.com/embed/teleantioquiawebs?showMoreVideos=false&hideInfo=true&autoPlay=true&lschannel=true&browseMode=false&textLines=2&hideChannelBranding=true&mode=false&allowchat=false&layout=1&t=31272
+
+String '20121889-d6ab-4863-89b8-72a8adadff1b'
+
+rtmpdump -V -r rtmp://extondemand.livestream.com/ondemand/mogulus-edge/teleantioquiawebs/ --swfVfy --flashVer "MAC 11,9,900,117" --swfUrl "https://cdn.livestream.com/chromelessPlayer/v21/playerapi.swf?textLines=2&hideChannelBranding=true&hideInfo=true&mode=false&iconColor=0x555555&borderColor=0xCCCCCC&autoPlay=true&allowchat=false&showBorderControlBa"
+
+
+Property 'uri' String 'rtmp://212-94.livestream.com'
+Property 'streamId' String 'teleantioquiawebs_380030e0-87b1-48bf-8d66-3bbdd5ad4710'
+
+
+Property 'description' String 'Started playing rtmp://212-94.livestream.com/affiliateStream/teleantioquiawebs/6c69766572657065617465723a72746d703a2f2f3231322d39342e6c69766573747265616d2e636f6d2f6d6f67756c75732f74656c65616e74696f71756961776
+
 ## Telecafé ##
 http://telecafe.gov.co/en/
 http://www.livestream.com/telecafe
@@ -143,3 +162,5 @@ rtmp://cdns724ste1010.multistream.net/telepacificolive/live-300
 http://www.canaltro.com/Nuestra-region-Nuestra-television/
 rtmp://cdns724ste1010.multistream.net/canaltro2live/live-500
 
+# References
+https://es.wikipedia.org/wiki/Televisi%C3%B3n_en_Colombia
