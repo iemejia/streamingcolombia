@@ -2,24 +2,45 @@ Streaming Colombia
 ==================
 
 This project contains utils to watch streaming media from Colombia.
+Basically it consists of an script (streaming-co) that generates a
+playlist (m3u file) of live TV streaming channels from Colombia.
 
-# streamingcolombia.py
+# Instructions 
 
-This script generates a playlist (m3u file) of live TV streaming channels from Colombia.
+You need to install a video player software that supports (rtmp and
+mms streams), we recommend you to use
+[VLC](http://www.videolan.org/vlc/) which is supported in most
+platforms.
 
-To use it, you just have to first generate the playlist file:
+## static version
+
+Open VLC and choose the open network option and put the following URL:
+https://raw.github.com/iemejia/streamingcolombia/master/tvcolombia-static.m3u
+
+Enjoy!
+
+## dynamic version (supports more channels)
+
+You need to install python 2.6 or superior on your system, then execute:
 
 	python streaming-co > playlist.m3u
+	
+and then open the file (playlist.m3u) with VLC. 
 
-and then open it with [VLC](http://www.videolan.org/vlc/).
+## XBMC
 
-You can also play individual streams with ffplay, e.g.
+We are working towards the integration of this project into the
+TVColombia XBMC plugin, for more info see
+[TVColombia](https://github.com/diegofn/wiiego-xbmc-addons.git).
+
+## advanced users
+
+You can also play individual streams from the playlist with ffplay or
+mplayer, e.g.
 
 	ffplay rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
 
-This plugin is compatible with python > 2.6. It doesn't use any additional packages.
-
-# Rules
+# Development
 
 The channels in this project are available freely in the Internet, we are not
 pirating or retransmitting anything, just repackaging official channels 
@@ -27,3 +48,8 @@ in a more convenient manner.
 
 This project only includes exclusively TV Channels from Colombia, and it uses 
 by preference their 'official' source streaming locations.
+
+More details on development info and channel extraction can be found
+in the file
+[dev.md](https://github.com/iemejia/streamingcolombia/blob/master/dev.md).
+
