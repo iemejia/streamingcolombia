@@ -4,7 +4,7 @@
 from __future__ import print_function
 
 from extractors import *
-
+from version import *
 
 class ColombiaTVInternetExtractor():
 
@@ -15,12 +15,16 @@ class ColombiaTVInternetExtractor():
                   CanalTROExtractor(), TeleMedellinExtractor(),
                   TeleAmigaExtractor()]
 
-    def generate_m3u_file(self):
+    def __generate_m3u_file__(self, extractors):
         s = u'#EXTM3U' + '\n'
-        for e in self.extractors:
+        for e in extractors:
             s += '#EXTINF:0, ' + e.NAME + '\n'
             s += e.get_streaming_url() + '\n'
         return s
+
+    def generate_all(self):
+        extractors = [e for e in self.extractors if e.IS_PLAYABLE]
+        return self.__generate_m3u_file__(extractors)
 
     def get_channels(self):
         """ Returns a dictionnary of channel information """
@@ -34,6 +38,12 @@ class ColombiaTVInternetExtractor():
                              'streaming_url': e.get_streaming_url()})
         return channels
 
+    def generate_static_m3u_file(self):
+        extractors = [e for e in self.extractors if issubclass(type(e), StaticExtractor) and e.IS_PLAYABLE]
+        return self.__generate_m3u_file__(extractors)
+
 if __name__ == "__main__":
-    print(ColombiaTVInternetExtractor().generate_m3u_file())
+    # print(VERSION)
+    print(ColombiaTVInternetExtractor().generate_all())
     # print(ColombiaTVInternetExtractor().get_channels())
+    # print(ColombiaTVInternetExtractor().generate_static_m3u_file())

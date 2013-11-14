@@ -6,6 +6,7 @@ from .canalcaracol import CanalColombiaExtractor
 from .canaltro import CanalTROExtractor
 from .senalcolombia import SenalColombiaExtractor
 from .senalinstitucional import SenalInstitucionalExtractor
+from .staticextractor import StaticExtractor
 from .teleamiga import TeleAmigaExtractor
 from .telecaribe import TeleCaribeExtractor
 from .telemedellin import TeleMedellinExtractor
