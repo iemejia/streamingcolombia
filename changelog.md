@@ -3,7 +3,6 @@ Changelog
 
 20131114
 [new] Cable Noticias, Tele Amiga
-[disabled] Canal Caracol [broken]
 [core] support to disable channels (IS_PLAYABLE)
 [core] support for channel logos (LOGO_URL)
 [core] support extract method for xbmc plugin (ColombiaTVInternetExtractor().get_channels)

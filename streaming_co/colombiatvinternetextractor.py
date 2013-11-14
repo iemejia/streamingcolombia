@@ -6,6 +6,8 @@ from __future__ import print_function
 from extractors import *
 from version import *
 
+import sys
+
 class ColombiaTVInternetExtractor():
 
     extractors = [CanalCapitalExtractor(), CanalColombiaExtractor(),
@@ -43,7 +45,19 @@ class ColombiaTVInternetExtractor():
         return self.__generate_m3u_file__(extractors)
 
 if __name__ == "__main__":
-    # print(VERSION)
-    print(ColombiaTVInternetExtractor().generate_all())
-    # print(ColombiaTVInternetExtractor().get_channels())
-    # print(ColombiaTVInternetExtractor().generate_static_m3u_file())
+    args = sys.argv[1:]
+    if len(args) == 0:
+        print(ColombiaTVInternetExtractor().generate_all())
+    if len(args) == 1:
+        if args[0] == 'static':
+            print(ColombiaTVInternetExtractor().generate_static_m3u_file())
+        if args[0] == 'xbmc':
+            print(ColombiaTVInternetExtractor().get_channels())
+        if args[0] == '-v' or args[0] == 'version':
+            print('[streaming-co] version %s' % VERSION)
+    else:
+        print('[streaming-co] version %s' % VERSION)
+        print('posible uses:')
+        print('$ python streaming-co')
+        print('$ python streaming-co static')
+        print('$ python streaming-co xbmc')

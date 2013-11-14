@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:0, Canal Caracol
+rtmp://cp101307.live.edgefcs.net/live/V2djhrMTqxeN7cqjwSceDrDk7Im9z-x2_640_360_396@29268
 #EXTINF:0, Señal Institucional
 rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
 #EXTINF:0, Señal Colombia

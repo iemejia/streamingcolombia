@@ -14,6 +14,9 @@ platforms.
 
 ## static version
 
+This version is more limited and includes less channel but has the convinience
+that you you don't need any additional software in your system.
+
 Open VLC and choose the open network option and put the following URL:
 https://raw.github.com/iemejia/streamingcolombia/master/tvcolombia-static.m3u
 
@@ -35,21 +38,26 @@ TVColombia XBMC plugin, for more info see
 
 ## advanced users
 
-You can also play individual streams from the playlist with ffplay or
-mplayer, e.g.
+You can also play (and capture) individual streams from the individual entries 
+of the playlist using rtmpdump, mplayer or ffplay e.g.
 
 	ffplay rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
 
-# Development
+or
+
+	rtmpdump tmp://cdns724ste1021.multistream.net/rtvclive/live-500
+
+# Legal
 
 The channels in this project are available freely in the Internet, we are not
 pirating or retransmitting anything, just repackaging official channels 
 in a more convenient manner.
 
-This project only includes exclusively TV Channels from Colombia, and it uses 
-by preference their 'official' source streaming locations.
+This project includes exclusively TV Channels from Colombia, and it uses their 
+'official' source locations for streaming.
+
+# Development
 
 More details on development info and channel extraction can be found
 in the file
 [dev.md](https://github.com/iemejia/streamingcolombia/blob/master/dev.md).
-
