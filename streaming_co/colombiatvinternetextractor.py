@@ -14,12 +14,16 @@ class ColombiaTVInternetExtractor():
     extractors = [CanalCapitalExtractor(), CanalCaracolExtractor(),
                   SenalInstitucionalExtractor(), SenalColombiaExtractor(),
                   Canal13Extractor(), CableNoticiasExtractor(),
+                  CanalDCExtractor(),
                   ZoomCanalExtractor(), TeleAntioquiaExtractor(),
                   TeleCafeExtractor(), TeleCaribeExtractor(),
                   TelePacificoExtractor(), CanalTROExtractor(),
                   TeleMedellinExtractor(), TVCincoMonteriaExtractor(),
                   TeleIslasExtractor(), NacionTVExtractor(),
-                  NTN24Extractor(), TeleAmigaExtractor()]
+                  TeleSantanderExtractor(), NTN24Extractor(),
+                  TeleVidExtractor(), BugaVisionExtractor(),
+                  CanalCNCPastoExtractor(),
+                  TeleAmigaExtractor(), CMBTelevisionExtractor()]
 
     def __generate_m3u_file__(self, extractors):
         s = u'#EXTM3U' + '\n'
@@ -39,9 +43,10 @@ class ColombiaTVInternetExtractor():
         """ title, image_url, streaming_url """
         channels = []
         for e in self.extractors:
-            channels.append({'title': e.NAME, 'image_url': e.LOGO_URL,
-                             'is_playable': e.IS_PLAYABLE,
-                             'streaming_url': e.get_streaming_url()})
+            if e.IS_PLAYABLE:
+                channels.append({'title': e.NAME, 'image_url': e.LOGO_URL,
+                                 'is_playable': e.IS_PLAYABLE,
+                                 'streaming_url': e.get_streaming_url()})
         return channels
 
     def generate_static_m3u_file(self):

@@ -5,13 +5,93 @@ Dev Info
 
 ## Canal 12 Valledupar
 http://www.canal12valledupar.com/joomla3/
-http://www.livestream.com/c12valledupar?utm_source=lsplayer&utm_medium=ui-content&utm_campaign=c12valledupar&utm_content=c12valledupar
+http://www.canal12valledupar.com/joomla3/templates/JV_Maju_template/images/gray/logo.png
+http://www.livestream.com/c12valledupar
+
+## Prisma TV
+http://www.prismatv.unal.edu.co/
+http://www.prismatv.unal.edu.co/fileadmin/templates/home/images/logo_small.png
+http://www.livestream.com/prisma_tv
+
+## TV Net
+http://www.tvnet.com.co/live/
+http://tvnet.com.co/live/templates/youshows/images/brick/logo.png
+http://www.livestream.com/tvnetchannel
+
+## Canal U
+http://www.canalu.com.co/senal-envivo
+http://www.canalu.com.co/img/logo-loveu.png
+http://www.livestream.com/canalutv
+
+## Tele Pereira
+http://www.livestream.com/telepereira
+
+## Canal 2 Valle
+http://www.teluroproducciones.com/senalvivo.php
+iblups
+
+## Massificar
+http://www.massificar.com/portal/
+--http://m.iblups.com:1935/live/KVZ7CKaoP6/playlist.m3u8
+
+## Canal CNC Cali
+http://www.canalcnccali.com/
+iblups.com
+
+## Canal Tele Familia
+http://www.canaltelefamilia.org
+http://www.justin.tv/canaltelefamilia?utm_campaign=live_embed_click&utm_source=www.canaltelefamilia.org
+
+## Canal C Cali
+http://www.canalccali.com/vivo.php
+http://www.justin.tv/canalc_cali?utm_campaign=live_embed_click&utm_source=www.canalccali.com
+
+## Canal CNC Santa Marta
+http://canalcncsantamarta.com/
+justin.tv
+
+## Enlace Television
+http://www.enlacetelevision.com
+http://www.justin.tv/enlace_tv?utm_campaign=live_embed_click&utm_source=www.enlacetelevision.com
+
+## Canal Campo TV
+http://www.canalcampotv.com/en_vivo.html
+http://www.ustream.tv/channel/campotvoficial
 
 ## Nacion TV
 http://www.naciontv.co/al_aire.html
 http://www.naciontv.co/_interfAz_CK!/naciontv.png
 http://www.ustream.tv/recorded/38341289
 http://sjc-uhls-vip03.ustream.tv/watch/playlist.m3u8?cid=14418655&appType=11&appVersion=2&locks=97d170e1550eee4afc0af065b78cda302a97674c&geo=GB&geocity=Glasgow&userId=882388414&connectionId=sjc-ums10_882388414&ts=1384471278&ip=90.244.223.62&sgn=45549b17cbe08ebeb2df752b27987949a2876ab1
+
+## Tu Canal TVN 
+http://tucanaltvn.com/website/senal-en-vivo/
+http://tucanaltvn.com/website/wp-content/uploads/2013/08/png.png
+http://www.ustream.tv/channel/tucanaltvn
+
+## TV San Jorge
+http://www.tvsanjorge.com/en-vivo/
+http://www.ustream.tv/channel/tv-san-jorge-canal-comunitario
+
+## PyC Television
+http://www.pyctelevision.com/index.php/senal-en-vivo
+http://www.ustream.tv/channel/pycltda2012
+
+## Canal 14 
+http://www.canal14.com.co/en-vivo
+http://www.ustream.tv/channel/canal-14-live
+
+## Productora Social de Telecomunicaciones
+http://www.psctelevision.com/
+http://www.ustream.tv/channel/psc3
+
+## TV Canal Local Bucaramanga
+http://www.canaltvc.com.co/#&slider1=3
+http://www.ustream.tv/channel/tvcsantander
+
+## Canal Cali TV
+http://www.canalcalitv.com/
+windows media
 
 # BROKEN
 
@@ -33,12 +113,15 @@ multistream, it only works in the time where they pass the news (discarted)
 
 ## Tu Kanal
 http://www.tukanal.tv/
-ustream, not working
+http://www.tukanal.tv/images/logo2.png
+http://www.ustream.tv/channel/tukanalchannel
+not working
 
 ## TV Orinoquia
 http://tvorinoquia.net/
 http://tvorinoquia.net/se%C3%B1al-en-vivo.html
-justin.tv, not working
+http://www.justin.tv/noticiasmediacolombia?utm_campaign=live_embed_click&utm_source=tvorinoquia.net
+not working
 
 ## Señal Senado
 http://www.senado.gov.co/envivo
@@ -59,10 +142,81 @@ http://teleboyaca.bligoo.com.co/
 http://www.livestream.com/canalteleboca
 not transmitting
 
+## Boyaca TV
+http://www.boyacatv.com/
+ustream
+not transmitting
+
 ## TuKanal
 http://www.tukanal.tv/
 ustream offline
 
+## La Ceja TV
+http://www.lacejatv.net/envivo.php
+http://www.justin.tv/aciculce?utm_campaign=live_embed_click&utm_source=www.lacejatv.net
+Offline
+
+## Notivision popayan
+http://www.notivisionpopayan.com/Site/index/html/default/paginas/senal.php
+justin.tv
+not transmitting
+
+## Quilichao TV
+http://www.quilichaoradioytv.com/
+justin.tv
+not transmitting
+
+## Estrella Television
+http://www.estrellatelevision.com/?page_id=22
+justin.tv
+not transmitting
+
+## CanalCNC Monteria
+http://www.ustream.tv/channel/canal-2-cnc-monter%C3%ADa---en-vivo
+not transmitting
+
+## Canal Monteria
+http://www.ustream.tv/channel/canal-monteria
+not transmitting
+
+## Chamorro Television
+http://www.chamorrotelevision.com/index.php?option=com_wrapper&view=wrapper&Itemid=105
+ustream
+not transmitting
+
+## Norte Vision
+http://www.nortevision.tv/
+not transmitting
+
+## Tele Sangil
+http://www.asoparsa.com/index.php?option=com_content&view=article&id=74&Itemid=609
+http://www.ustream.tv/channel/telesangil
+not transmitting
+
+## Telepasto
+http://ccomunicaciones.udenar.edu.co/?page_id=248
+justin.tv
+not transmitting
+
+## Tumaco TV
+http://tumacotv.blogspot.fr/
+ustream
+not transmitting
+
+## Señal Buga
+http://www.xn--sealbuga-e3a.com/
+http://www.ustream.tv/channel/senalbuga
+not transmitting
+
+## Tele Zapatoca
+http://www.telezapatoca.com/
+http://www.livestream.com/auvpazazapatoca?utm_source=lsplayer&utm_medium=ui-content&utm_campaign=auvpazazapatoca&utm_content=auvpazazapatoca
+not transmitting
+
+## La Ceja TV
+http://www.lacejatv.net/envivo.php
+http://www.justin.tv/aciculce?utm_campaign=live_embed_click&utm_source=www.lacejatv.net
+not transmitting
 
 # DONE
 
@@ -202,6 +356,34 @@ http://www.tvcincomonteria.co/senal-en-vivo
 http://www.tvcincomonteria.co/images/dd_webname_11/images/demo/logook.png
 http://iblups.com/tvcinco
 http://m.iblups.com:1935/live/ZDmoaRbSn3/playlist.m3u8
+
+## Tele Santander (el que tiene app para iphone)
+http://www.telesantander.com/
+http://www.telesantander.com/templates/rt_solarsentinel_j15/images/header/green/logo.png
+rtmp://wow.eleden.com:1935/livesantander/livestream
+
+## CMB Television
+http://www.cmbcolombia.tv/
+http://www.cmbcolombia.tv/images/logo_cmb.png
+rtmp://hd.worldkast.com:1935/8076/_definst_/mp4:80763
+
+## TeleVid
+http://televid.org/televid/
+http://televid.org/televid/templates/televid12/images/object979167786.png
+http://new.livestream.com/accounts/5864544/events/2511887
+
+## Canal CNC Pasto
+http://www.globaltvpasto.com/canales.php/
+http://m.iblups.com:1935/live/JDBZbzVmj6/playlist.m3u8
+
+## Bugavision
+http://bugavision.com/
+http://m.iblups.com:1935/live/BkiQh7byVW/playlist.m3u8
+
+## Canal DC
+http://www.canaldc.tv/sitio/
+http://www.canaldc.tv/sitio/templates/dinamikos_canaldc/images/red/logo.png
+rtmp://cdns724ste0010.multistream.net/stream1215live/live-250
 
 # References
 https://es.wikipedia.org/wiki/Televisi%C3%B3n_en_Colombia

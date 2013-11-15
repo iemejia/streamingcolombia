@@ -11,6 +11,8 @@ rtmp://cdns724ste1010.multistream.net/rtvc2live/live-500
 rtmp://cdns724ste1010.multistream.net/canaltr3celive/live-300
 #EXTINF:0, Cable Noticias
 rtmp://50.23.172.98:1935/live/cablenoticiastv
+#EXTINF:0, Canal DC
+rtmp://cdns724ste0010.multistream.net/stream1215live/live-250
 #EXTINF:0, Zoom Canal
 http://xcanalzoomtvx.api.channel.livestream.com/3.0/playlist.m3u8
 #EXTINF:0, Teleantioquia
@@ -29,8 +31,16 @@ http://api.new.livestream.com/broadcasts/34806153.m3u8?dw=100
 http://m.iblups.com:1935/live/ZDmoaRbSn3/playlist.m3u8
 #EXTINF:0, Tele Islas
 http://xteleislasx.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:0, Canal 13
+rtmp://wow.eleden.com:1935/livesantander/livestream
 #EXTINF:0, NTN24
 http://www.youtube.com/watch?v=xzMfw-N7LZc#t=79026
+#EXTINF:0, Buga Visión
+http://m.iblups.com:1935/live/BkiQh7byVW/playlist.m3u8
+#EXTINF:0, Canal CNC Pasto
+http://m.iblups.com:1935/live/JDBZbzVmj6/playlist.m3u8
 #EXTINF:0, Tele Amiga
 mms://208.109.243.17:8081/teleamiga
+#EXTINF:0, CMB Televisión
+rtmp://hd.worldkast.com:1935/8076/_definst_/mp4:80763
 

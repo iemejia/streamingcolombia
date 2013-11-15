@@ -2,10 +2,13 @@ Changelog
 =========
 
 20131115
-[new] Tele Islas, TV Cinco Monteria
+[new] Canal DC, Tele Islas, TV Cinco Monteria, Buga Vision, Canal CNC Pasto, 
+[new] CMB Television, Tele Santander
+[disable] Nación TV
 
 20131114
-[new] Cable Noticias, NTN24, Tele Amiga, Teleantioquia, Telecafe, Zoom Canal, Nación TV
+[new] Cable Noticias, NTN24, Tele Amiga, Teleantioquia, Telecafe, Zoom Canal, 
+[new] Nación TV
 [core] support to disable channels (IS_PLAYABLE)
 [core] support for channel logos (LOGO_URL)
 [core] support extract method for xbmc plugin (ColombiaTVInternetExtractor().get_channels)
