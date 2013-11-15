@@ -1,6 +1,18 @@
 Dev Info
 ========
 
+# TODO
+
+## Canal 12 Valledupar
+http://www.canal12valledupar.com/joomla3/
+http://www.livestream.com/c12valledupar?utm_source=lsplayer&utm_medium=ui-content&utm_campaign=c12valledupar&utm_content=c12valledupar
+
+## Nacion TV
+http://www.naciontv.co/al_aire.html
+http://www.naciontv.co/_interfAz_CK!/naciontv.png
+http://www.ustream.tv/recorded/38341289
+http://sjc-uhls-vip03.ustream.tv/watch/playlist.m3u8?cid=14418655&appType=11&appVersion=2&locks=97d170e1550eee4afc0af065b78cda302a97674c&geo=GB&geocity=Glasgow&userId=882388414&connectionId=sjc-ums10_882388414&ts=1384471278&ip=90.244.223.62&sgn=45549b17cbe08ebeb2df752b27987949a2876ab1
+
 # BROKEN
 
 ## RCN
@@ -41,6 +53,15 @@ not available via open internet
 ## CityTV, no tiene link para senal al vivo
 http://www.citytv.com.co/
 http://www.citytv.com.co/media/images/logoCitytvcomco.png
+
+## Teleboyaca 
+http://teleboyaca.bligoo.com.co/
+http://www.livestream.com/canalteleboca
+not transmitting
+
+## TuKanal
+http://www.tukanal.tv/
+ustream offline
 
 
 # DONE
@@ -170,11 +191,17 @@ http://www.zoomcanal.com.co/Portals/0/img_LogoZoom.jpg
 http://www.livestream.com/canalzoomtv
 http://xcanalzoomtvx.api.channel.livestream.com/3.0/playlist.m3u8
 
-## Nacion TV
-http://www.naciontv.co/al_aire.html
-http://www.naciontv.co/_interfAz_CK!/naciontv.png
-http://www.ustream.tv/recorded/38341289
-http://sjc-uhls-vip03.ustream.tv/watch/playlist.m3u8?cid=14418655&appType=11&appVersion=2&locks=97d170e1550eee4afc0af065b78cda302a97674c&geo=GB&geocity=Glasgow&userId=882388414&connectionId=sjc-ums10_882388414&ts=1384471278&ip=90.244.223.62&sgn=45549b17cbe08ebeb2df752b27987949a2876ab1
+## TeleIslas
+http://www.teleislas.com.co/quienes-somos
+http://www.livestream.com/teleislas
+http://www.teleislas.com.co/site/templates/teleisla2013/images/page/Logo.png
+http://xteleislasx.api.channel.livestream.com/3.0/playlist.m3u8
+
+## TV Cinco Monteria
+http://www.tvcincomonteria.co/senal-en-vivo
+http://www.tvcincomonteria.co/images/dd_webname_11/images/demo/logook.png
+http://iblups.com/tvcinco
+http://m.iblups.com:1935/live/ZDmoaRbSn3/playlist.m3u8
 
 # References
 https://es.wikipedia.org/wiki/Televisi%C3%B3n_en_Colombia

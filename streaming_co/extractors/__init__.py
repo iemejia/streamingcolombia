@@ -13,6 +13,8 @@ from .teleamiga import TeleAmigaExtractor
 from .teleantioquia import TeleAntioquiaExtractor
 from .telecafe import TeleCafeExtractor
 from .telecaribe import TeleCaribeExtractor
+from .teleislas import TeleIslasExtractor
 from .telemedellin import TeleMedellinExtractor
 from .telepacifico import TelePacificoExtractor
+from .tvcincomonteria import TVCincoMonteriaExtractor
 from .zoomcanal import ZoomCanalExtractor

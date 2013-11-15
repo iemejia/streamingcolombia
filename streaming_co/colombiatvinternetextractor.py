@@ -17,7 +17,8 @@ class ColombiaTVInternetExtractor():
                   ZoomCanalExtractor(), TeleAntioquiaExtractor(),
                   TeleCafeExtractor(), TeleCaribeExtractor(),
                   TelePacificoExtractor(), CanalTROExtractor(),
-                  TeleMedellinExtractor(), NacionTVExtractor(),
+                  TeleMedellinExtractor(), TVCincoMonteriaExtractor(),
+                  TeleIslasExtractor(), NacionTVExtractor(),
                   NTN24Extractor(), TeleAmigaExtractor()]
 
     def __generate_m3u_file__(self, extractors):
