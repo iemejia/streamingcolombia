@@ -31,7 +31,7 @@ http://api.new.livestream.com/broadcasts/34806153.m3u8?dw=100
 http://m.iblups.com:1935/live/ZDmoaRbSn3/playlist.m3u8
 #EXTINF:0, Tele Islas
 http://xteleislasx.api.channel.livestream.com/3.0/playlist.m3u8
-#EXTINF:0, Canal 13
+#EXTINF:0, Tele Santander
 rtmp://wow.eleden.com:1935/livesantander/livestream
 #EXTINF:0, NTN24
 http://www.youtube.com/watch?v=xzMfw-N7LZc#t=79026
