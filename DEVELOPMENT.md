@@ -26,18 +26,6 @@ http://www.livestream.com/canalutv
 ## Tele Pereira
 http://www.livestream.com/telepereira
 
-## Canal 2 Valle
-http://www.teluroproducciones.com/senalvivo.php
-iblups
-
-## Massificar
-http://www.massificar.com/portal/
---http://m.iblups.com:1935/live/KVZ7CKaoP6/playlist.m3u8
-
-## Canal CNC Cali
-http://www.canalcnccali.com/
-iblups.com
-
 ## Canal Tele Familia
 http://www.canaltelefamilia.org
 http://www.justin.tv/canaltelefamilia?utm_campaign=live_embed_click&utm_source=www.canaltelefamilia.org
@@ -62,7 +50,6 @@ http://www.ustream.tv/channel/campotvoficial
 http://www.naciontv.co/al_aire.html
 http://www.naciontv.co/_interfAz_CK!/naciontv.png
 http://www.ustream.tv/recorded/38341289
-http://sjc-uhls-vip03.ustream.tv/watch/playlist.m3u8?cid=14418655&appType=11&appVersion=2&locks=97d170e1550eee4afc0af065b78cda302a97674c&geo=GB&geocity=Glasgow&userId=882388414&connectionId=sjc-ums10_882388414&ts=1384471278&ip=90.244.223.62&sgn=45549b17cbe08ebeb2df752b27987949a2876ab1
 
 ## Tu Canal TVN 
 http://tucanaltvn.com/website/senal-en-vivo/
@@ -217,6 +204,17 @@ not transmitting
 http://www.lacejatv.net/envivo.php
 http://www.justin.tv/aciculce?utm_campaign=live_embed_click&utm_source=www.lacejatv.net
 not transmitting
+
+## Canal 2 Valle
+http://www.teluroproducciones.com/senalvivo.php
+iblups (failback to youtube, not live)
+
+## Massificar
+http://www.massificar.com/portal/
+--http://m.iblups.com:1935/live/KVZ7CKaoP6/playlist.m3u8
+rtsp://m.iblups.com:1935/live/KVZ7CKaoP6
+not working
+
 
 # DONE
 
@@ -384,6 +382,13 @@ http://m.iblups.com:1935/live/BkiQh7byVW/playlist.m3u8
 http://www.canaldc.tv/sitio/
 http://www.canaldc.tv/sitio/templates/dinamikos_canaldc/images/red/logo.png
 rtmp://cdns724ste0010.multistream.net/stream1215live/live-250
+
+## Canal CNC Cali
+http://www.canalcnccali.com/
+http://m.iblups.com:1935/live/1NRTsjTpl1/playlist.m3u8
+rtsp://m.iblups.com:1935/live/1NRTsjTpl1
+iblups.com
+
 
 # References
 https://es.wikipedia.org/wiki/Televisi%C3%B3n_en_Colombia

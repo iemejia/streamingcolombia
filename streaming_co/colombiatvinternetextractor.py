@@ -22,7 +22,7 @@ class ColombiaTVInternetExtractor():
                   TeleIslasExtractor(), NacionTVExtractor(),
                   TeleSantanderExtractor(), NTN24Extractor(),
                   TeleVidExtractor(), BugaVisionExtractor(),
-                  CanalCNCPastoExtractor(),
+                  CanalCNCCaliExtractor(), CanalCNCPastoExtractor(),
                   TeleAmigaExtractor(), CMBTelevisionExtractor()]
 
     def __generate_m3u_file__(self, extractors):

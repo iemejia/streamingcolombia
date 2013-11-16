@@ -4,6 +4,7 @@ from .cablenoticias import CableNoticiasExtractor
 from .canal13 import Canal13Extractor
 from .canalcapital import CanalCapitalExtractor
 from .canalcaracol import CanalCaracolExtractor
+from .canalcnccali import CanalCNCCaliExtractor
 from .canalcncpasto import CanalCNCPastoExtractor
 from .canaldc import CanalDCExtractor
 from .canaltro import CanalTROExtractor

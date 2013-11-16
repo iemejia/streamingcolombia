@@ -37,6 +37,8 @@ rtmp://wow.eleden.com:1935/livesantander/livestream
 http://www.youtube.com/watch?v=xzMfw-N7LZc#t=79026
 #EXTINF:0, Buga Visión
 http://m.iblups.com:1935/live/BkiQh7byVW/playlist.m3u8
+#EXTINF:0, Canal CNC Cali
+http://m.iblups.com:1935/live/1NRTsjTpl1/playlist.m3u8
 #EXTINF:0, Canal CNC Pasto
 http://m.iblups.com:1935/live/JDBZbzVmj6/playlist.m3u8
 #EXTINF:0, Tele Amiga
