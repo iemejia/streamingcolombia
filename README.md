@@ -2,8 +2,6 @@ Streaming Colombia
 ==================
 
 This project contains utils to watch streaming media from Colombia.
-Basically it consists of a script (streaming-co) that generates a
-playlist (m3u file) of the live TV streaming channels from Colombia.
 
 # Preliminaries
 
@@ -53,16 +51,17 @@ is too slow.
 ## Stream capture
 
 You can also watch and capture the video piping the stream to a file
-and reproducing it with vlc. Thanks to @rgamez for the tip.
+and reproducing it with vlc. Thanks to
+[@rgamez](https://github.com/rgamez) for the tip.
 
     livestreamer http://new.livestream.com/accounts/4239881/events/2169976/ best -O | tee out.mp4 | vlc -
 
-then you can play your saved out.mp4 file :).
+when you close vlc the recording stops and you can play your saved
+out.mp4 file.
 
 ## List of channels via livestreamer
 
 - Canal Capital  
-
     livestreamer http://new.livestream.com/accounts/4239881/events/2169976/ best
 
 - Tele Medellin  
@@ -121,7 +120,7 @@ More details on development info and channel extraction can be found
 in the file
 [DEVELOPMENT.md](https://github.com/iemejia/streamingcolombia/blob/master/DEVELOPMENT.md).
 
-## generate playlist 
+## Generate playlist 
 
 You need to install python 2.6 or superior on your system, then execute:
 
