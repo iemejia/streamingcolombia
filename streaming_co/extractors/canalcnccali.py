@@ -10,3 +10,4 @@ class CanalCNCCaliExtractor(StaticExtractor):
     WEBPAGE_URL = 'http://www.canalcnccali.com'
     LOGO_URL = ''
     STREAMING_URL = 'http://m.iblups.com:1935/live/1NRTsjTpl1/playlist.m3u8'
+    IS_PLAYABLE = False

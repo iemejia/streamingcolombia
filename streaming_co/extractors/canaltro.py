@@ -10,3 +10,4 @@ class CanalTROExtractor(StaticExtractor):
     WEBPAGE_URL = 'http://www.canaltro.com/Nuestra-region-Nuestra-television/'
     LOGO_URL = 'http://www.canaltro.com/Nuestra-region-Nuestra-television/templates/shaper_magazine/images/logo.png'
     STREAMING_URL = 'rtmp://cdns724ste1010.multistream.net/canaltro2live/live-500'
+    IS_PLAYABLE = False

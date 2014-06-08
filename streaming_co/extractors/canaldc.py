@@ -10,3 +10,4 @@ class CanalDCExtractor(StaticExtractor):
     WEBPAGE_URL = 'http://www.canaldc.tv/sitio/'
     LOGO_URL = 'http://www.canaldc.tv/sitio/templates/dinamikos_canaldc/images/red/logo.png'
     STREAMING_URL = 'rtmp://cdns724ste0010.multistream.net/stream1215live/live-250'
+    IS_PLAYABLE = False

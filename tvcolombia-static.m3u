@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:0, Canal Capital
-http://livestream-f.akamaihd.net/i/4239881_2169976_f3c8e868_1@117636/master.m3u8?dw=100&__b__=446
-#EXTINF:0, Canal Caracol
-rtmp://cp101307.live.edgefcs.net/live/V2djhrMTqxeN7cqjwSceDrDk7Im9z-x2_640_360_396@29268
 #EXTINF:0, Señal Institucional
 rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
 #EXTINF:0, Señal Colombia
@@ -11,8 +7,6 @@ rtmp://cdns724ste1010.multistream.net/rtvc2live/live-500
 rtmp://cdns724ste1010.multistream.net/canaltr3celive/live-300
 #EXTINF:0, Cable Noticias
 rtmp://50.23.172.98:1935/live/cablenoticiastv
-#EXTINF:0, Canal DC
-rtmp://cdns724ste0010.multistream.net/stream1215live/live-250
 #EXTINF:0, Zoom Canal
 http://xcanalzoomtvx.api.channel.livestream.com/3.0/playlist.m3u8
 #EXTINF:0, Teleantioquia
@@ -20,27 +14,11 @@ http://xteleantioquiawebsx.api.channel.livestream.com/3.0/playlist.m3u8
 #EXTINF:0, Telecafé
 http://xtelecafex.api.channel.livestream.com/3.0/playlist.m3u8
 #EXTINF:0, Tele Caribe
-rtmp://cdns724ste1021.multistream.net/telecaribelive/liveDVR-400
+rtmp://cdns724ste1021.multistream.net/telecaribelive/live-400
 #EXTINF:0, Tele Pacífico
 rtmp://cdns724ste1010.multistream.net/telepacificolive/live-300
-#EXTINF:0, Canal TRO
-rtmp://cdns724ste1010.multistream.net/canaltro2live/live-500
-#EXTINF:0, TeleMedellín
-http://api.new.livestream.com/broadcasts/34806153.m3u8?dw=100
-#EXTINF:0, TV Cinco Monteria
-http://m.iblups.com:1935/live/ZDmoaRbSn3/playlist.m3u8
-#EXTINF:0, Tele Islas
-http://xteleislasx.api.channel.livestream.com/3.0/playlist.m3u8
-#EXTINF:0, Tele Santander
-rtmp://wow.eleden.com:1935/livesantander/livestream
 #EXTINF:0, NTN24
 http://www.youtube.com/watch?v=xzMfw-N7LZc#t=79026
-#EXTINF:0, Buga Visión
-http://m.iblups.com:1935/live/BkiQh7byVW/playlist.m3u8
-#EXTINF:0, Canal CNC Cali
-http://m.iblups.com:1935/live/1NRTsjTpl1/playlist.m3u8
-#EXTINF:0, Canal CNC Pasto
-http://m.iblups.com:1935/live/JDBZbzVmj6/playlist.m3u8
 #EXTINF:0, Tele Amiga
 mms://208.109.243.17:8081/teleamiga
 #EXTINF:0, CMB Televisión

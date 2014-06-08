@@ -41,13 +41,53 @@ TVColombia XBMC plugin, for more info see
 You can also play (and capture) individual streams from the individual rtmp 
 channels of the playlist using rtmpdump, mplayer or ffplay e.g.
 
-to play Señal Institucional, look for the URL and then:
+to play Señal Institucional, look for the URL and then use your
+favorite video player, eg.g ffplay, avplay, etc.
 
 	ffplay rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
 
 to capture Señal Institucional:
 
 	rtmpdump -o senalinstitucional.flv -r rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
+
+# Frequently Asked Questions (FAQ)
+
+## Which channels used to work and are disabled in this moment ?
+
+- Canal Capital
+- Canal DC
+- Canal CNC Cali
+- Canal CNC Pasto
+- TeleMedellin
+- Buga Vision
+- TV Cinco Monteria
+- Canal TRO
+- Tele Santander
+- Tele Islas
+- NTN24
+- Tele Amiga
+
+## Where is Canal Caracol ?
+
+Canal Caracol seems to have changed its video provider and we don't
+have yet a solution to include it in the streaming playlist. For the
+moment you can play Canal Caracol like this:
+
+	pip install livestreamer
+
+	livestreamer "hds://http://acaooyalahd2-lh.akamaihd.net/z/caracol01_delivery@187698/manifest.f4m?hdcore=2.10.3&g=PEWEWKTRRUJM" best
+
+You can also change the best word in the end for worst if your
+connection is not fast enough.
+
+## Where is Canal RCN ?
+
+Canal RCN is not supported for the moment.
+
+## Are you ever going to translate these instructions to spanish ?
+
+I am lazy but if you want to just do a pull request with the
+instructions in spanish, I will be glad to add them.
 
 # Legal
 
