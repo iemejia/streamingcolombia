@@ -72,7 +72,7 @@ to capture Señal Institucional:
 Canal Caracol seems to have changed its video provider and we don't
 have yet a solution to include it in the streaming playlist. For the
 moment you can play Canal Caracol using
-[livestreamer](http://livestreamer.readthedocs.org/en/latest/) like
+[livestreamer](http://livestreamer.tanuki.se/en/latest/) like
 this:
 
 	pip install livestreamer
