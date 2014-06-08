@@ -45,8 +45,8 @@ then you can execute the given command e.g. to watch Canal Capital:
 
     livestreamer http://new.livestream.com/accounts/4239881/events/2169976/ best
 
-You can replace best for different quality or worst if your connection
-is too slow.
+You can replace the last word *best* for *worst* if your connection is
+too slow.
 
 ## Stream capture
 
@@ -74,7 +74,7 @@ out.mp4 file.
     livestreamer "hds://http://acaooyalahd2-lh.akamaihd.net/z/caracol01_delivery@187698/manifest.f4m?hdcore=2.10.3&g=PEWEWKTRRUJM" best
 
 - Canal RCN  
-    livestreamer "hds://http://ooyalahd2-f.akamaihd.net/z/saleslatam_test06@180219/manifest.f4m?hdcore=2.10.3&g=PEKPFNBGBTUV" worst
+    livestreamer "hds://http://ooyalahd2-f.akamaihd.net/z/saleslatam_test06@180219/manifest.f4m?hdcore=2.10.3&g=PEKPFNBGBTUV" best
 
 - Canal Zoom TV  
     livestreamer http://www.livestream.com/canalzoomtv best
