@@ -17,10 +17,6 @@ http://xtelecafex.api.channel.livestream.com/3.0/playlist.m3u8
 rtmp://cdns724ste1021.multistream.net/telecaribelive/live-400
 #EXTINF:0, Tele Pacífico
 rtmp://cdns724ste1010.multistream.net/telepacificolive/live-300
-#EXTINF:0, NTN24
-http://www.youtube.com/watch?v=xzMfw-N7LZc#t=79026
-#EXTINF:0, Tele Amiga
-mms://208.109.243.17:8081/teleamiga
 #EXTINF:0, CMB Televisión
 rtmp://hd.worldkast.com:1935/8076/_definst_/mp4:80763
 
