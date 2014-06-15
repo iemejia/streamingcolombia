@@ -5,6 +5,11 @@
     <thumbnail>https://upload.wikimedia.org/wikipedia/commons/f/f8/Flag_of_Colombia.png</thumbnail>
     <items>
       <item>
+        <title>Canal Caracol</title>
+        <link>http://acaooyalahd2-lh.akamaihd.net/i/caracol04_delivery@187706/index_2128_av-b.m3u8?sd=10&amp;rebase=on</link>
+        <thumbnail>http://st.caracoltv.co/sites/caracoltv.com/themes/caracol/images/programasProd/logo_big.png</thumbnail>
+      </item>
+      <item>
         <title>Señal Institucional</title>
         <link>rtmp://cdns724ste1021.multistream.net/rtvclive/live-500</link>
         <thumbnail>http://www.senalinstitucional.gov.co/templates/institucional_2013/images/new/logo_institucional_escudo.png</thumbnail>

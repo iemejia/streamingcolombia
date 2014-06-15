@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:0, Canal Caracol
+http://acaooyalahd2-lh.akamaihd.net/i/caracol04_delivery@187706/index_2128_av-b.m3u8?sd=10&rebase=on
 #EXTINF:0, Señal Institucional
 rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
 #EXTINF:0, Señal Colombia
