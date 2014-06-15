@@ -61,31 +61,28 @@ out.mp4 file.
 
 ## List of channels via livestreamer
 
-- Canal Capital  
+- Canal Capital
     livestreamer http://new.livestream.com/accounts/4239881/events/2169976/ best
 
-- Tele Medellin  
+- Tele Medellin
     livestreamer http://new.livestream.com/accounts/4608897/events/2230380/ best
 
-- Tele Islas  
+- Tele Islas
     livestreamer http://new.livestream.com/accounts/6205660/events/2583468 best
 
-- Canal Caracol  
-    livestreamer "hds://http://acaooyalahd2-lh.akamaihd.net/z/caracol01_delivery@187698/manifest.f4m?hdcore=2.10.3&g=PEWEWKTRRUJM" best
-
-- Canal RCN  
+- Canal RCN
     livestreamer "hds://http://ooyalahd2-f.akamaihd.net/z/saleslatam_test06@180219/manifest.f4m?hdcore=2.10.3&g=PEKPFNBGBTUV" best
 
-- Canal Zoom TV  
+- Canal Zoom TV
     livestreamer http://www.livestream.com/canalzoomtv best
 
-- Canal U  
+- Canal U
     livestreamer http://www.livestream.com/canalutv best
 
-- Nacion TV  
+- Nacion TV
     livestreamer http://www.ustream.tv/recorded/38341289 best
 
-- Tu Kanal  
+- Tu Kanal
     livestreamer http://www.ustream.tv/channel/tukanalchannel best
 
 # Frequently Asked Questions (FAQ)
@@ -99,7 +96,7 @@ you can see the next question.
 
 There is not a plugin for this project for the moment.
 
-You can add the streaming address to XBMC, using the Live TV functionality.
+You can add the streaming address to XBMC, using the Live TV functionality or the live streams plugin.
 
 I would love to have this project integrated into a nice XBMC plugin,
 but I dont have the time to do so for the moement. Again if you want
