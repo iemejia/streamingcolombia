@@ -332,6 +332,14 @@ rtmpdump --rtmp rtmp://cp101307.live.edgefcs.net/live/ \
          --tcUrl rtmp://23.15.5.185/live?_fcs_vhost=cp101307.live.edgefcs.net \
          --live | mplayer -cache 512 -
 
+Some new ones found via google
+
+"http://acaooyalahd2-lh.akamaihd.net/i/caracol04_delivery@187706/index_2128_av-b.m3u8?sd=10&rebase=on"
+
+http://tinyurl.com/qe9qxv8
+
+rtmpdump -r rtmp://go.fasts.tv/fasts --playpath caracol15 --swfUrl http://www.fasts.tv/player/player_embed_fasts.swf --live --pageUrl "http://www.fasts.tv/embedplayer.php?width=620&height=400&id=caracol15&autoplay=true" --token "#ed%h0#w18723jdsahjkDHF" --conn S:OK --verbose
+
 ## Tu Kanal
 http://www.tukanal.tv/
 http://www.tukanal.tv/images/logo2.png
@@ -413,3 +421,5 @@ http://thestreamdb.com/all.xml
 
 https://es.wikipedia.org/wiki/Televisi%C3%B3n_en_Colombia
 https://es.wikipedia.org/wiki/Anexo:Canales_de_televisi%C3%B3n_de_Colombia
+
+# simpletv for more streaming urls (those who start with $OPT)
