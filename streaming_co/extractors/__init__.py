@@ -7,7 +7,9 @@ from .canalcaracol import CanalCaracolExtractor
 from .canalcnccali import CanalCNCCaliExtractor
 from .canalcncpasto import CanalCNCPastoExtractor
 from .canaldc import CanalDCExtractor
+from .canalrcn import CanalRCNExtractor
 from .canaltro import CanalTROExtractor
+from .canalu import CanalUExtractor
 from .cmbtelevision import CMBTelevisionExtractor
 from .naciontv import NacionTVExtractor
 from .ntn24 import NTN24Extractor
@@ -23,5 +25,6 @@ from .telemedellin import TeleMedellinExtractor
 from .telepacifico import TelePacificoExtractor
 from .telesantander import TeleSantanderExtractor
 from .televid import TeleVidExtractor
+from .tukanal import TuKanalExtractor
 from .tvcincomonteria import TVCincoMonteriaExtractor
 from .zoomcanal import ZoomCanalExtractor

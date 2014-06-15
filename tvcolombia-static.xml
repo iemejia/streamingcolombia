@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<channels>
+  <channel>
+    <name>Streaming Colombia</name>
+    <thumbnail/>
+    <items>
+      <item>
+        <title>Señal Institucional</title>
+        <link>rtmp://cdns724ste1021.multistream.net/rtvclive/live-500</link>
+        <thumbnail>http://www.senalinstitucional.gov.co/templates/institucional_2013/images/new/logo_institucional_escudo.png</thumbnail>
+      </item>
+      <item>
+        <title>Señal Colombia</title>
+        <link>rtmp://cdns724ste1010.multistream.net/rtvc2live/live-500</link>
+        <thumbnail>http://www.senalcolombia.tv/templates/senalcolombia-2013/images/sc/header3/logo_senalcol.png</thumbnail>
+      </item>
+      <item>
+        <title>Canal 13</title>
+        <link>rtmp://cdns724ste1010.multistream.net/canaltr3celive/live-300</link>
+        <thumbnail>http://www.canal13.com.co/log_bop.png</thumbnail>
+      </item>
+      <item>
+        <title>Cable Noticias</title>
+        <link>rtmp://50.23.172.98:1935/live/cablenoticiastv</link>
+        <thumbnail>http://www.cablenoticias.tv/images/logoCableCabezote.png</thumbnail>
+      </item>
+      <item>
+        <title>Zoom Canal</title>
+        <link>http://xcanalzoomtvx.api.channel.livestream.com/3.0/playlist.m3u8</link>
+        <thumbnail>http://www.zoomcanal.com.co/Portals/0/img_LogoZoom.jpg</thumbnail>
+      </item>
+      <item>
+        <title>Teleantioquia</title>
+        <link>http://xteleantioquiawebsx.api.channel.livestream.com/3.0/playlist.m3u8</link>
+        <thumbnail>http://www.teleantioquia.co/v2_base/file_loader.php?id_file=12080-m21</thumbnail>
+      </item>
+      <item>
+        <title>Telecafé</title>
+        <link>http://xtelecafex.api.channel.livestream.com/3.0/playlist.m3u8</link>
+        <thumbnail>http://telecafe.gov.co/wp-content/uploads/2013/11/logo-telecafe-2013.png</thumbnail>
+      </item>
+      <item>
+        <title>Tele Caribe</title>
+        <link>rtmp://cdns724ste1021.multistream.net/telecaribelive/live-400</link>
+        <thumbnail>http://www.telecaribe.com.co/templates/youshows/images/turquoise/logo.png</thumbnail>
+      </item>
+      <item>
+        <title>Tele Pacífico</title>
+        <link>rtmp://cdns724ste1010.multistream.net/telepacificolive/live-300</link>
+        <thumbnail>http://www.telepacifico.com/themes/telepacificotheme/images/logo.png</thumbnail>
+      </item>
+      <item>
+        <title>CMB Televisión</title>
+        <link>rtmp://hd.worldkast.com:1935/8076/_definst_/mp4:80763</link>
+        <thumbnail>http://www.cmbcolombia.tv/images/logo_cmb.png</thumbnail>
+      </item>
+    </items>
+  </channel>
+</channels>
+

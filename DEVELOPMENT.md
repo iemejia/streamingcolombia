@@ -381,6 +381,34 @@ http://xteleislasx.api.channel.livestream.com/3.0/playlist.m3u8
 livestreamer http://new.livestream.com/accounts/6205660/events/2583468 best
 
 
+# TV XML Stream
+
+    <channel>
+    <name>All \ Entertainment</name>
+    <thumbnail>http://community-links.googlecode.com/svn/icons/icon.png</thumbnail>
+    <items>
+
+    <item>
+    <title>3Sat</title>
+    <link>rtmp://cp108475.live.edgefcs.net/live/ playpath=3sat_1_800@45493 swfURL=ht
+    tp://www.wilmaa.com/player/main_v3.316.swf swfVfy=true live=true</link>
+    <thumbnail>http://thestreamdb.com/images/8gdgla.jpg</thumbnail>
+    </item>
+
+    <item>
+    <title>3/24</title>
+    <link>rtmp://324.directe-f4v.emissio.tvcatalunya.cat/live/ playpath=324_FLV@1306
+    8 swfUrl="http://jonas.do.am/player.swf" pageUrl="http://jonas.do.am" swfVfy=tru
+    e live=true</link>
+    <thumbnail>http://upload.wikimedia.org/wikipedia/commons/a/a6/Canal_3-24_de_TVC.
+    jpg</thumbnail>
+    </item>
+
+
+Ref.
+http://thestreamdb.com/all.xml
+
+
 # References
 
 https://es.wikipedia.org/wiki/Televisi%C3%B3n_en_Colombia

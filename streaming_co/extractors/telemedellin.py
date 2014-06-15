@@ -12,4 +12,5 @@ class TeleMedellinExtractor(LiveStreamExtractor):
     LOGO_URL = 'http://www.telemedellin.tv/images/static/logo.png'
     account_id = '4608897'
     event_id = '2230380'
+    LIVESTREAMER_URL = 'http://new.livestream.com/accounts/4608897/events/2230380/'
     IS_PLAYABLE = False

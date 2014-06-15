@@ -10,4 +10,5 @@ class NacionTVExtractor(StaticExtractor):
     WEBPAGE_URL = 'http://www.naciontv.co/al_aire.html'
     LOGO_URL = 'http://www.naciontv.co/_interfAz_CK!/naciontv.png'
     STREAMING_URL = ''
+    LIVESTREAMER_URL = 'http://www.ustream.tv/recorded/38341289'
     IS_PLAYABLE = False
