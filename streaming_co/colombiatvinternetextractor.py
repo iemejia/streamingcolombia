@@ -65,6 +65,7 @@ class ColombiaTVInternetExtractor():
         name = SubElement(channel, 'name')
         name.text = 'Streaming Colombia'
         thumbnail = SubElement(channel, 'thumbnail')
+        thumbnail.text = 'https://upload.wikimedia.org/wikipedia/commons/f/f8/Flag_of_Colombia.png'
 
         items = SubElement(channel, 'items')
         for e in extractors:

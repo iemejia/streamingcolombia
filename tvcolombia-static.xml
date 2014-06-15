@@ -2,7 +2,7 @@
 <channels>
   <channel>
     <name>Streaming Colombia</name>
-    <thumbnail/>
+    <thumbnail>https://upload.wikimedia.org/wikipedia/commons/f/f8/Flag_of_Colombia.png</thumbnail>
     <items>
       <item>
         <title>Señal Institucional</title>
