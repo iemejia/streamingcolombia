@@ -1,4 +1,5 @@
 #!/usr/local/bin/env python
+# -*- coding: utf-8 -*-
 
 try:
     from urllib.request import urlopen

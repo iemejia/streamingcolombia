@@ -44,8 +44,7 @@ class ColombiaTVInternetExtractor():
         return channels
 
     def generate_m3u_file(self):
-        # extractors = [e for e in self.extractors if issubclass(type(e), StaticExtractor) and e.IS_PLAYABLE]
-        extractors = [e for e in self.extractors if e.IS_PLAYABLE]
+        extractors = [e for e in self.extractors if e.IS_PLAYABLE and e.STREAMING_URL]
         s = u'#EXTM3U' + '\n'
         for e in extractors:
             s += '#EXTINF:0, ' + e.NAME + '\n'
@@ -59,7 +58,7 @@ class ColombiaTVInternetExtractor():
         return reparsed.toprettyxml(indent="  ")
 
     def generate_xml_file(self):
-        extractors = [e for e in self.extractors if e.IS_PLAYABLE]
+        extractors = [e for e in self.extractors if e.IS_PLAYABLE and e.STREAMING_URL]
         channels = Element('channels')
         channel = SubElement(channels, 'channel')
         name = SubElement(channel, 'name')
