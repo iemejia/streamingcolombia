@@ -41,7 +41,7 @@ http://www.justin.tv/enlace_tv?utm_campaign=live_embed_click&utm_source=www.enla
 http://www.canalcampotv.com/en_vivo.html
 http://www.ustream.tv/channel/campotvoficial
 
-## Tu Canal TVN 
+## Tu Canal TVN
 http://tucanaltvn.com/website/senal-en-vivo/
 http://tucanaltvn.com/website/wp-content/uploads/2013/08/png.png
 http://www.ustream.tv/channel/tucanaltvn
@@ -54,7 +54,7 @@ http://www.ustream.tv/channel/tv-san-jorge-canal-comunitario
 http://www.pyctelevision.com/index.php/senal-en-vivo
 http://www.ustream.tv/channel/pycltda2012
 
-## Canal 14 
+## Canal 14
 http://www.canal14.com.co/en-vivo
 http://www.ustream.tv/channel/canal-14-live
 
@@ -157,7 +157,7 @@ http://m.iblups.com:1935/live/ZDmoaRbSn3/playlist.m3u8
 http://www.canaltro.com/Nuestra-region-Nuestra-television/
 rtmp://cdns724ste1010.multistream.net/canaltro2live/live-500
 
-## Teleboyaca 
+## Teleboyaca
 http://teleboyaca.bligoo.com.co/
 http://www.livestream.com/canalteleboca
 
@@ -238,6 +238,7 @@ rtmp://cdns724ste1010.multistream.net/canaltr3celive/live-300
 ## Señal Institucional
 http://www.senalinstitucional.gov.co/
 rtmp://cdns724ste1021.multistream.net/rtvclive/live-500
+http://www.streamvdn.com/embed/d23834fb
 
 ## Señal Colombia
 http://www.senalcolombia.tv/player/popupsc/
@@ -416,6 +417,18 @@ livestreamer http://new.livestream.com/accounts/6205660/events/2583468 best
 Ref.
 http://thestreamdb.com/all.xml
 
+# f4m files
+
+curl -v http://cdns840stu1010.multistream.net/rtvclive/amlst:live/manifest.f4m
+curl -v http://cdns840stu1010.multistream.net/rtvclive/amlst:live/media_ur09b4tpg_b750000.abst
+
+
+Adobe HDS(HTTP Dynamic Streaming). It provides(Adobe HDS) packetized stream of different qualities and it can be encrypted(DRM).
+
+You can download those with livestreamer adding the hds:// prefix
+
+https://github.com/login?return_to=%2FK-S-V%2FScripts
+https://n1njahacks.wordpress.com/2015/01/29/how-to-save-hds-flash-streams-from-any-web-page/
 
 # References
 
