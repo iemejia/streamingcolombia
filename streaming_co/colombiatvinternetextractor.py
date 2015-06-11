@@ -9,6 +9,7 @@ from xml.dom import minidom
 from extractors import *
 from version import *
 
+import subprocess
 import sys
 
 
@@ -93,18 +94,40 @@ class ColombiaTVInternetExtractor():
            s += e.NAME + '\n'
         return s
 
+    def display_available_channels(self):
+        extractors = [e for e in self.extractors if e.IS_PLAYABLE]
+        s = ''
+        for i, e in enumerate(extractors, 1):
+           s += str(i) + ' ' + e.NAME + '\n'
+        return s
+
+    def get_available_extractor(self, i):
+        extractors = [e for e in self.extractors if e.IS_PLAYABLE]
+        return extractors[i]
 
 if __name__ == "__main__":
     args = sys.argv[1:]
+    coltv = ColombiaTVInternetExtractor()
     if len(args) == 1:
         if args[0] == 'm3u':
-            print(ColombiaTVInternetExtractor().generate_m3u_file())
+            print(coltv.generate_m3u_file())
         if args[0] == 'xml':
-            print(ColombiaTVInternetExtractor().generate_xml_file())
+            print(coltv.generate_xml_file())
         if args[0] == 'livestreamer':
-            print(ColombiaTVInternetExtractor().generate_livestreamer_file())
+            print(coltv.generate_livestreamer_file())
         if args[0] == 'missing':
-            print(ColombiaTVInternetExtractor().generate_missing_channels())
+            print(coltv.generate_missing_channels())
+        if args[0] == 'player':
+            print(coltv.display_available_channels())
+            sel = input('Choose a channel: ')
+            sel = int(sel) - 1
+            e = coltv.get_available_extractor(sel)
+            if e.STREAMING_URL:
+                subprocess.call(['vlc', e.STREAMING_URL])
+            elif e.LIVESTREAMER_URL:
+                subprocess.call(['livestreamer', e.LIVESTREAMER_URL, 'best'])
+            else:
+                print('invalid extractor information %s' % e)
         if args[0] == '-v' or args[0] == 'version':
             print('[streaming-co] version %s' % VERSION)
     else:
