@@ -9,5 +9,4 @@ class ZoomCanalExtractor(StaticExtractor):
     WEBPAGE_URL = 'http://www.zoomcanal.com.co/Canalenl%C3%ADnea/tabid/706/Default.aspx'
     LOGO_URL = 'http://www.zoomcanal.com.co/Portals/0/img_LogoZoom.jpg'
     STREAMING_URL = 'http://xcanalzoomtvx.api.channel.livestream.com/3.0/playlist.m3u8'
-    # not working
     # LIVESTREAMER_URL = 'http://www.livestream.com/canalzoomtv'

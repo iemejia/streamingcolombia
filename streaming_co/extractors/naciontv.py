@@ -8,4 +8,5 @@ class NacionTVExtractor(StaticExtractor):
     NAME = u'Nación TV'
     WEBPAGE_URL = 'http://www.naciontv.co/al_aire.html'
     LOGO_URL = 'http://www.naciontv.co/_interfAz_CK!/naciontv.png'
+    STREAMING_URL = 'http://www.ustream.tv/recorded/38341289'
     LIVESTREAMER_URL = 'http://www.ustream.tv/recorded/38341289'
