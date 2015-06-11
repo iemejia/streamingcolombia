@@ -80,11 +80,11 @@ class ColombiaTVInternetExtractor():
 
     def generate_livestreamer_file(self):
         extractors = [e for e in self.extractors if e.IS_PLAYABLE and e.LIVESTREAMER_URL]
-        s = ''
+        s = '```' + '\n'
         for e in extractors:
             s += '- ' + e.NAME + '\n'
             s += 'livestreamer ' + e.LIVESTREAMER_URL + ' best' + '\n\n'
-        return s
+        return s + '```'
 
     def generate_missing_channels(self):
         extractors = [e for e in self.extractors if not e.IS_PLAYABLE]
