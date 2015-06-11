@@ -9,6 +9,8 @@ http://xcanalzoomtvx.api.channel.livestream.com/3.0/playlist.m3u8
 http://xtelecafex.api.channel.livestream.com/3.0/playlist.m3u8
 #EXTINF:0, Tele Islas
 http://cdnvideo.webvideocore.net/live3ch/out_4r27ggewzxycowws80ck/index.m3u8
+#EXTINF:0, Nación TV
+http://www.ustream.tv/recorded/38341289
 #EXTINF:0, CMB Televisión
 rtmp://hd.worldkast.com:1935/8076/_definst_/mp4:80763
 

@@ -30,6 +30,11 @@
         <thumbnail>http://www.teleislas.com.co/site/templates/teleisla2013/images/page/Logo.png</thumbnail>
       </item>
       <item>
+        <title>Nación TV</title>
+        <link>http://www.ustream.tv/recorded/38341289</link>
+        <thumbnail>http://www.naciontv.co/_interfAz_CK!/naciontv.png</thumbnail>
+      </item>
+      <item>
         <title>CMB Televisión</title>
         <link>rtmp://hd.worldkast.com:1935/8076/_definst_/mp4:80763</link>
         <thumbnail>http://www.cmbcolombia.tv/images/logo_cmb.png</thumbnail>

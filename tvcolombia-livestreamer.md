@@ -29,4 +29,7 @@ livestreamer http://www.ustream.tv/recorded/38341289 best
 - Tu Kanal
 livestreamer http://www.ustream.tv/channel/tukanalchannel best
 
+- Tele Vid
+livestreamer http://new.livestream.com/accounts/5864544/events/2511887/ best
+
 ```
