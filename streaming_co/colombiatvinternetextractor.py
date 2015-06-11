@@ -76,8 +76,23 @@ class ColombiaTVInternetExtractor():
             item_thumbnail = SubElement(item, 'thumbnail')
             item_thumbnail.text = e.LOGO_URL
 
-        # return tostring(channels, pretty_print=True)
         return self.__prettify__(channels)
+
+    def generate_livestreamer_file(self):
+        extractors = [e for e in self.extractors if e.IS_PLAYABLE and e.LIVESTREAMER_URL]
+        s = ''
+        for e in extractors:
+            s += '- ' + e.NAME + '\n'
+            s += 'livestreamer ' + e.LIVESTREAMER_URL + ' best' + '\n\n'
+        return s
+
+    def generate_missing_channels(self):
+        extractors = [e for e in self.extractors if not e.IS_PLAYABLE]
+        s = 'missing channels: ' + '\n'
+        for e in extractors:
+           s += e.NAME + '\n'
+        return s
+
 
 if __name__ == "__main__":
     args = sys.argv[1:]
@@ -86,6 +101,10 @@ if __name__ == "__main__":
             print(ColombiaTVInternetExtractor().generate_m3u_file())
         if args[0] == 'xml':
             print(ColombiaTVInternetExtractor().generate_xml_file())
+        if args[0] == 'livestreamer':
+            print(ColombiaTVInternetExtractor().generate_livestreamer_file())
+        if args[0] == 'missing':
+            print(ColombiaTVInternetExtractor().generate_missing_channels())
         if args[0] == '-v' or args[0] == 'version':
             print('[streaming-co] version %s' % VERSION)
     else:
@@ -93,3 +112,5 @@ if __name__ == "__main__":
         print('posible uses:')
         print('$ python streaming-co m3u')
         print('$ python streaming-co xml')
+        print('$ python streaming-co livestreamer')
+        print('$ python streaming-co missing')
