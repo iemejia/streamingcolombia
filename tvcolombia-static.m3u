@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:0, Canal Caracol
-http://caracoltvlivehds-lh.akamaihd.net/i/wowzalive_1@126280/index_300_av-b.m3u8
 #EXTINF:0, Cable Noticias
 rtmp://50.23.173.13:1935/live/cablenoticiastv_720p
 #EXTINF:0, Zoom Canal

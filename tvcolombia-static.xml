@@ -5,11 +5,6 @@
     <thumbnail>https://upload.wikimedia.org/wikipedia/commons/f/f8/Flag_of_Colombia.png</thumbnail>
     <items>
       <item>
-        <title>Canal Caracol</title>
-        <link>http://caracoltvlivehds-lh.akamaihd.net/i/wowzalive_1@126280/index_300_av-b.m3u8</link>
-        <thumbnail>http://st.caracoltv.co/sites/caracoltv.com/themes/caracol/images/programasProd/logo_big.png</thumbnail>
-      </item>
-      <item>
         <title>Cable Noticias</title>
         <link>rtmp://50.23.173.13:1935/live/cablenoticiastv_720p</link>
         <thumbnail>http://www.cablenoticias.tv/images/logoCableCabezote.png</thumbnail>
